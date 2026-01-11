@@ -641,7 +641,7 @@
     </div>
 
     <div class="sidebar-download">
-      <a href="{{ '/Cheat-Sheet.pdf' | relative_url }}">📥 {% if page.lang == 'de' %}Spickzettel{% else %}Download Cheat Sheet{% endif %}</a>
+      <a href="{% if page.lang == 'de' %}{{ '/de/cheatsheet' | relative_url }}{% else %}{{ '/cheatsheet' | relative_url }}{% endif %}">📋 {% if page.lang == 'de' %}Spickzettel{% else %}Cheat Sheet{% endif %}</a>
     </div>
   </aside>
 
