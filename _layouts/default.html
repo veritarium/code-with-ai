@@ -94,7 +94,7 @@
       justify-content: center;
     }
 
-    /* Sidebar - hidden by default */
+    /* Sidebar - hidden on mobile, visible on desktop */
     .sidebar {
       position: fixed;
       top: 0;
@@ -104,15 +104,13 @@
       background: var(--gray);
       border-right: 1px solid var(--border);
       overflow-y: auto;
-      transition: transform 0.3s ease;
       z-index: 200;
       padding: 1rem 0;
-      transform: translateX(-280px);
+      display: none;
     }
 
     .sidebar.open {
-      transform: translateX(0);
-      box-shadow: 2px 0 10px rgba(0,0,0,0.15);
+      display: block;
     }
 
     .sidebar-overlay {
@@ -122,7 +120,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0,0,0,0.5);
+      background: rgba(0,0,0,0.3);
       z-index: 150;
     }
 
@@ -489,18 +487,23 @@
       }
 
       .menu-toggle {
-        display: flex;
+        display: none;
       }
 
       .sidebar {
+        display: block;
         position: fixed;
         left: 0;
         top: 0;
         height: 100vh;
       }
 
+      .sidebar-overlay {
+        display: none !important;
+      }
+
       .main-content {
-        margin-left: 0;
+        margin-left: 280px;
         padding: 2rem 3rem;
         max-width: 800px;
       }
@@ -561,13 +564,15 @@
   </div>
 
   <header class="site-header">
-    <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
     <a href="{% if page.lang == 'de' %}{{ '/de/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="site-title">
       {% if page.lang == 'de' %}Vom Nicht-Programmierer zum KI-Programmierer{% else %}From Non-Coder to Builder{% endif %}
     </a>
-    <div class="lang-switcher">
-      <a href="{{ '/' | relative_url }}" {% if page.lang == 'en' or page.lang == nil %}class="active"{% endif %}>EN</a>
-      <a href="{{ '/de/' | relative_url }}" {% if page.lang == 'de' %}class="active"{% endif %}>DE</a>
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <div class="lang-switcher">
+        <a href="{{ '/' | relative_url }}" {% if page.lang == 'en' or page.lang == nil %}class="active"{% endif %}>EN</a>
+        <a href="{{ '/de/' | relative_url }}" {% if page.lang == 'de' %}class="active"{% endif %}>DE</a>
+      </div>
+      <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Menu">☰</button>
     </div>
   </header>
 
