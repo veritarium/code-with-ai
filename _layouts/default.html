@@ -6,20 +6,23 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primer-css/21.0.7/primer.min.css">
   <style>
+    * { box-sizing: border-box; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       line-height: 1.6;
       color: #24292e;
+      margin: 0;
     }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
+
+    /* Header */
     .site-header {
       background: #0d0829;
       padding: 1rem 0;
-      margin-bottom: 2rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
     }
     .site-header a {
       color: #ffffff;
@@ -29,17 +32,122 @@
       margin: 0;
       font-size: 1.5rem;
     }
-    .site-nav {
-      margin-top: 0.5rem;
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     .site-nav a {
       color: #6882a1;
-      margin-right: 1.5rem;
+      margin-left: 1.5rem;
       font-size: 0.9rem;
     }
     .site-nav a:hover {
       color: #ffffff;
     }
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: #ffffff;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* Layout */
+    .page-wrapper {
+      display: flex;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding-top: 70px;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 280px;
+      min-width: 280px;
+      background: #f6f8fa;
+      border-right: 1px solid #e1e4e8;
+      height: calc(100vh - 70px);
+      position: sticky;
+      top: 70px;
+      overflow-y: auto;
+      padding: 1.5rem 0;
+    }
+    .sidebar-section {
+      margin-bottom: 0.5rem;
+    }
+    .sidebar-section-title {
+      display: block;
+      padding: 0.5rem 1.5rem;
+      font-weight: 600;
+      color: #0d0829;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .sidebar-section-title:hover {
+      background: #e1e4e8;
+      text-decoration: none;
+    }
+    .sidebar-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar-links li a {
+      display: block;
+      padding: 0.4rem 1.5rem 0.4rem 2rem;
+      color: #586069;
+      text-decoration: none;
+      font-size: 0.9rem;
+      border-left: 3px solid transparent;
+    }
+    .sidebar-links li a:hover {
+      background: #e1e4e8;
+      color: #0d0829;
+    }
+    .sidebar-links li a.active {
+      background: #e1e4e8;
+      color: #091358;
+      border-left-color: #091358;
+      font-weight: 500;
+    }
+    .sidebar-divider {
+      height: 1px;
+      background: #e1e4e8;
+      margin: 1rem 1.5rem;
+    }
+    .sidebar-download {
+      padding: 1rem 1.5rem;
+    }
+    .sidebar-download a {
+      display: block;
+      background: #091358;
+      color: #ffffff;
+      padding: 0.6rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    .sidebar-download a:hover {
+      background: #0d0829;
+    }
+
+    /* Main Content */
+    .main-content {
+      flex: 1;
+      padding: 2rem 3rem;
+      min-width: 0;
+      max-width: 900px;
+    }
+
+    /* Content Styles */
     .chapter-diagram {
       display: block;
       margin: 2rem auto;
@@ -135,7 +243,7 @@
       background: linear-gradient(135deg, #091358, #0d0829);
       color: #ffffff;
       padding: 2rem;
-      margin: -2rem -2rem 2rem -2rem;
+      margin: -2rem -3rem 2rem -3rem;
     }
     .part-header h1 {
       color: #ffffff;
@@ -152,21 +260,53 @@
       color: #6882a1;
       font-size: 0.9rem;
     }
-    @media (max-width: 768px) {
-      .container {
-        padding: 1rem;
+
+    /* Mobile */
+    @media (max-width: 1024px) {
+      .sidebar {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 280px;
+        height: calc(100vh - 70px);
+        z-index: 99;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+      }
+      .sidebar.open {
+        display: block;
+      }
+      .menu-toggle {
+        display: block;
+      }
+      .site-nav {
+        display: none;
+      }
+      .main-content {
+        padding: 1.5rem;
       }
       .part-header {
-        margin: -1rem -1rem 1rem -1rem;
-        padding: 1rem;
+        margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+        padding: 1.5rem;
+      }
+    }
+    @media (max-width: 600px) {
+      .header-container {
+        padding: 0 1rem;
+      }
+      .site-header h1 {
+        font-size: 1.2rem;
       }
     }
   </style>
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1><a href="{{ '/' | relative_url }}">From Non-Coder to Builder</a></h1>
+    <div class="header-container">
+      <div>
+        <h1><a href="{{ '/' | relative_url }}">From Non-Coder to Builder</a></h1>
+      </div>
+      <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
       <nav class="site-nav">
         <a href="{{ '/part-1-foundations/' | relative_url }}">Foundations</a>
         <a href="{{ '/part-2-skills/' | relative_url }}">Skills</a>
@@ -178,12 +318,87 @@
     </div>
   </header>
 
-  <main class="container">
-    {{ content }}
-  </main>
+  <div class="page-wrapper">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <a href="{{ '/part-1-foundations/' | relative_url }}" class="sidebar-section-title">Part 1: Foundations</a>
+        <ul class="sidebar-links">
+          <li><a href="{{ '/part-1-foundations/01-core' | relative_url }}">1. The Core Partnership</a></li>
+          <li><a href="{{ '/part-1-foundations/02-loop' | relative_url }}">2. The Loop</a></li>
+          <li><a href="{{ '/part-1-foundations/03-operations' | relative_url }}">3. Six Operations</a></li>
+        </ul>
+      </div>
 
-  <footer class="container">
-    <p>From Non-Coder to Builder: Coding with AI for Engineers</p>
-  </footer>
+      <div class="sidebar-section">
+        <a href="{{ '/part-2-skills/' | relative_url }}" class="sidebar-section-title">Part 2: Skills</a>
+        <ul class="sidebar-links">
+          <li><a href="{{ '/part-2-skills/04-decomposition' | relative_url }}">4. Decomposition</a></li>
+          <li><a href="{{ '/part-2-skills/05-precision' | relative_url }}">5. Precision</a></li>
+          <li><a href="{{ '/part-2-skills/06-feedback' | relative_url }}">6. Feedback</a></li>
+          <li><a href="{{ '/part-2-skills/07-context' | relative_url }}">7. Context</a></li>
+          <li><a href="{{ '/part-2-skills/08-restart' | relative_url }}">8. When to Restart</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <a href="{{ '/part-3-pitfalls/' | relative_url }}" class="sidebar-section-title">Part 3: Problems</a>
+        <ul class="sidebar-links">
+          <li><a href="{{ '/part-3-pitfalls/09-traps' | relative_url }}">9. Common Pitfalls</a></li>
+          <li><a href="{{ '/part-3-pitfalls/10-debugging' | relative_url }}">10. Debugging</a></li>
+          <li><a href="{{ '/part-3-pitfalls/11-unstuck' | relative_url }}">11. Getting Unstuck</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <a href="{{ '/part-4-literacy/' | relative_url }}" class="sidebar-section-title">Part 4: Code Literacy</a>
+        <ul class="sidebar-links">
+          <li><a href="{{ '/part-4-literacy/12-reading' | relative_url }}">12. Reading Code</a></li>
+          <li><a href="{{ '/part-4-literacy/13-concepts' | relative_url }}">13. Core Concepts</a></li>
+          <li><a href="{{ '/part-4-literacy/14-functions' | relative_url }}">14. Functions & Libraries</a></li>
+          <li><a href="{{ '/part-4-literacy/15-data' | relative_url }}">15. Data and Files</a></li>
+          <li><a href="{{ '/part-4-literacy/16-quality' | relative_url }}">16. Quality</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <a href="{{ '/part-5-building/' | relative_url }}" class="sidebar-section-title">Part 5: Building</a>
+        <ul class="sidebar-links">
+          <li><a href="{{ '/part-5-building/17-first-project' | relative_url }}">17. Your First Project</a></li>
+          <li><a href="{{ '/part-5-building/18-forward' | relative_url }}">18. Moving Forward</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-divider"></div>
+
+      <div class="sidebar-download">
+        <a href="{{ '/Cheat-Sheet.pdf' | relative_url }}">⬇ Download Cheat Sheet</a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      {{ content }}
+
+      <footer>
+        <p>From Non-Coder to Builder: Coding with AI for Engineers</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+    }
+    // Close sidebar when clicking outside on mobile
+    document.addEventListener('click', function(e) {
+      const sidebar = document.getElementById('sidebar');
+      const toggle = document.querySelector('.menu-toggle');
+      if (window.innerWidth <= 1024 &&
+          !sidebar.contains(e.target) &&
+          !toggle.contains(e.target) &&
+          sidebar.classList.contains('open')) {
+        sidebar.classList.remove('open');
+      }
+    });
+  </script>
 </body>
 </html>
