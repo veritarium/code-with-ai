@@ -79,6 +79,10 @@
       font-size: 1.1rem;
       font-weight: 600;
       margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 55vw;
     }
 
     .menu-toggle {
@@ -224,7 +228,6 @@
       height: 100%;
       background: rgba(0, 0, 0, 0.95);
       z-index: 1000;
-      cursor: zoom-out;
       align-items: center;
       justify-content: center;
       padding: 1rem;
@@ -240,7 +243,6 @@
       object-fit: contain;
       border-radius: 4px;
       box-shadow: 0 4px 30px rgba(0,0,0,0.5);
-      cursor: zoom-out;
     }
 
     .lightbox-close {
@@ -573,10 +575,10 @@
   <div class="progress-bar" id="progress"></div>
 
   <!-- Lightbox for fullscreen images -->
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <div class="lightbox" id="lightbox">
     <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
     <img id="lightbox-img" src="" alt="Fullscreen image">
-    <div class="lightbox-hint">Click anywhere to close</div>
+    <div class="lightbox-hint">{% if page.lang == 'de' %}Klicke ✕ zum Schließen{% else %}Click ✕ to close{% endif %}</div>
   </div>
 
   <header class="site-header">
