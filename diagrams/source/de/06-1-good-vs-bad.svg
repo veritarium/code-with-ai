@@ -41,31 +41,31 @@
   <!-- BAD FEEDBACK Column -->
   <rect x="60" y="100" width="500" height="600" fill="#ffffff" stroke="#b60002" stroke-width="3"/>
   <rect x="60" y="100" width="500" height="55" fill="url(#badRed)"/>
-  <text x="310" y="135" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">BAD FEEDBACK</text>
+  <text x="310" y="135" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">SCHLECHTES FEEDBACK</text>
 
   <!-- Bad example 1 -->
   <rect x="80" y="175" width="460" height="80" fill="#fff5f5"/>
-  <text x="100" y="205" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "It doesn't work"</text>
-  <text x="100" y="235" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">AI has no idea what's wrong</text>
+  <text x="100" y="205" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "Es funktioniert nicht"</text>
+  <text x="100" y="235" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">KI hat keine Ahnung, was falsch ist</text>
 
   <!-- Bad example 2 -->
   <rect x="80" y="270" width="460" height="80" fill="#fff5f5"/>
-  <text x="100" y="300" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "This is wrong"</text>
-  <text x="100" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">Wrong how? What did you expect?</text>
+  <text x="100" y="300" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "Das ist falsch"</text>
+  <text x="100" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">Falsch wie? Was hast du erwartet?</text>
 
   <!-- Bad example 3 -->
   <rect x="80" y="365" width="460" height="80" fill="#fff5f5"/>
-  <text x="100" y="395" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "Fix it"</text>
-  <text x="100" y="425" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">Fix what? AI will guess (usually wrong)</text>
+  <text x="100" y="395" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "Reparier es"</text>
+  <text x="100" y="425" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">Was reparieren? KI wird raten (meist falsch)</text>
 
   <!-- Bad example 4 -->
   <rect x="80" y="460" width="460" height="80" fill="#fff5f5"/>
-  <text x="100" y="490" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "That's not what I wanted"</text>
-  <text x="100" y="520" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">Then what DID you want?</text>
+  <text x="100" y="490" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#b60002" font-weight="bold">✗ "Das ist nicht, was ich wollte"</text>
+  <text x="100" y="520" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">Was wolltest du denn?</text>
 
   <!-- Bad result -->
   <rect x="80" y="560" width="460" height="60" fill="url(#badRed)" opacity="0.2"/>
-  <text x="310" y="595" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002" text-anchor="middle">Result: More cycles, more frustration</text>
+  <text x="310" y="595" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002" text-anchor="middle">Ergebnis: Mehr Zyklen, mehr Frust</text>
 
   <!-- VS divider -->
   <text x="584" y="430" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#6882a1" text-anchor="middle">VS</text>
@@ -73,33 +73,33 @@
   <!-- GOOD FEEDBACK Column -->
   <rect x="608" y="100" width="500" height="600" fill="#ffffff" stroke="#0a7c42" stroke-width="3"/>
   <rect x="608" y="100" width="500" height="55" fill="url(#goodGreen)"/>
-  <text x="858" y="135" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">GOOD FEEDBACK</text>
+  <text x="858" y="135" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">GUTES FEEDBACK</text>
 
   <!-- Good example 1 -->
   <rect x="628" y="175" width="460" height="80" fill="#e8f5ed"/>
-  <text x="648" y="205" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Getting error: TypeError on line 15"</text>
-  <text x="648" y="235" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">AI knows exactly where to look</text>
+  <text x="648" y="205" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Bekomme Fehler: TypeError in Zeile 15"</text>
+  <text x="648" y="235" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">KI weiß genau, wo sie suchen muss</text>
 
   <!-- Good example 2 -->
   <rect x="628" y="270" width="460" height="80" fill="#e8f5ed"/>
-  <text x="648" y="300" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Output is 5, but should be 10"</text>
-  <text x="648" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">AI knows the gap to close</text>
+  <text x="648" y="300" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Ausgabe ist 5, sollte aber 10 sein"</text>
+  <text x="648" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">KI kennt die Lücke zu schließen</text>
 
   <!-- Good example 3 -->
   <rect x="628" y="365" width="460" height="80" fill="#e8f5ed"/>
-  <text x="648" y="395" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Change the loop to start at 1, not 0"</text>
-  <text x="648" y="425" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">AI knows exactly what to change</text>
+  <text x="648" y="395" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Ändere die Schleife, bei 1 starten, nicht 0"</text>
+  <text x="648" y="425" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">KI weiß genau, was zu ändern ist</text>
 
   <!-- Good example 4 -->
   <rect x="628" y="460" width="460" height="80" fill="#e8f5ed"/>
-  <text x="648" y="490" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Add validation: reject negative numbers"</text>
-  <text x="648" y="520" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">AI knows the requirement</text>
+  <text x="648" y="490" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a7c42" font-weight="bold">✓ "Validierung hinzufügen: negative Zahlen ablehnen"</text>
+  <text x="648" y="520" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1" font-style="italic">KI kennt die Anforderung</text>
 
   <!-- Good result -->
   <rect x="628" y="560" width="460" height="60" fill="url(#goodGreen)" opacity="0.2"/>
-  <text x="858" y="595" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42" text-anchor="middle">Result: Fast fixes, working code</text>
+  <text x="858" y="595" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42" text-anchor="middle">Ergebnis: Schnelle Lösungen, funktionierender Code</text>
 
   <!-- Bottom summary -->
   <rect x="250" y="730" width="668" height="70" fill="url(#darkNavy)"/>
-  <text x="584" y="765" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Specific feedback → Specific fixes → Done faster</text>
+  <text x="584" y="765" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Spezifisches Feedback → Spezifische Lösungen → Schneller fertig</text>
 </svg>

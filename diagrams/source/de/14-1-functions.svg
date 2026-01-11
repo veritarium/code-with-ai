@@ -36,19 +36,19 @@
 
   <!-- Title -->
   <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">FUNKTIONEN</text>
-  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Reusable machines that do one job</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Wiederverwendbare Maschinen für eine Aufgabe</text>
 
   <!-- Analogy -->
   <rect x="200" y="100" width="768" height="70" fill="url(#darkNavy)"/>
-  <text x="584" y="140" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">A function is like a machine: put something in, get something out</text>
+  <text x="584" y="140" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Eine Funktion ist wie eine Maschine: etwas rein, etwas raus</text>
 
   <!-- Visual machine diagram -->
   <rect x="100" y="200" width="400" height="250" fill="#ffffff" stroke="#091358" stroke-width="2"/>
-  <text x="300" y="235" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">The Machine</text>
+  <text x="300" y="235" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#091358" text-anchor="middle">Die Maschine</text>
 
   <!-- Input -->
   <rect x="130" y="280" width="80" height="50" fill="url(#steelBlue)"/>
-  <text x="170" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">INPUT</text>
+  <text x="170" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">EINGABE</text>
   <text x="170" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">force, area</text>
 
   <!-- Arrow -->
@@ -64,11 +64,11 @@
 
   <!-- Output -->
   <rect x="420" y="280" width="70" height="50" fill="url(#steelBlue)"/>
-  <text x="455" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">OUTPUT</text>
+  <text x="455" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">AUSGABE</text>
   <text x="455" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">stress</text>
 
   <!-- Usage note -->
-  <text x="300" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Call it anywhere, reuse forever</text>
+  <text x="300" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Überall aufrufen, für immer wiederverwenden</text>
 
   <!-- Code example -->
   <rect x="530" y="200" width="540" height="250" fill="#ffffff" stroke="#091358" stroke-width="2"/>
@@ -87,32 +87,32 @@
 
   <!-- Benefits section -->
   <rect x="100" y="480" width="300" height="200" fill="url(#deepBlue)"/>
-  <text x="250" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Why Use Functions?</text>
+  <text x="250" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Warum Funktionen nutzen?</text>
   <rect x="120" y="540" width="260" height="120" fill="#ffffff"/>
-  <text x="140" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Reuse code (write once)</text>
-  <text x="140" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Organize logic (clear names)</text>
-  <text x="140" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Test easily (isolated units)</text>
-  <text x="140" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Fix in one place</text>
+  <text x="140" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Code wiederverwenden (einmal schreiben)</text>
+  <text x="140" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Logik organisieren (klare Namen)</text>
+  <text x="140" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">Einfach testen (isolierte Einheiten)</text>
+  <text x="140" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">An einer Stelle reparieren</text>
 
   <!-- Parts section -->
   <rect x="435" y="480" width="300" height="200" fill="url(#steelBlue)"/>
-  <text x="585" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Function Parts</text>
+  <text x="585" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Funktionsteile</text>
   <rect x="455" y="540" width="260" height="120" fill="#ffffff"/>
-  <text x="475" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Name (what it does)</text>
-  <text x="475" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Parameters (inputs)</text>
-  <text x="475" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Body (the work)</text>
-  <text x="475" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Return (output)</text>
+  <text x="475" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Name (was sie tut)</text>
+  <text x="475" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Parameter (Eingaben)</text>
+  <text x="475" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Körper (die Arbeit)</text>
+  <text x="475" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Rückgabe (Ausgabe)</text>
 
   <!-- Ask AI section -->
   <rect x="770" y="480" width="300" height="200" fill="url(#deepBlue)"/>
-  <text x="920" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Ask AI To...</text>
+  <text x="920" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Frag KI nach...</text>
   <rect x="790" y="540" width="260" height="120" fill="#ffffff"/>
   <text x="810" y="570" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Erstelle eine Funktion, die..."</text>
-  <text x="810" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Explain this function"</text>
-  <text x="810" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"What does it return?"</text>
-  <text x="810" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Add error handling"</text>
+  <text x="810" y="595" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Erkläre diese Funktion"</text>
+  <text x="810" y="620" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Was gibt sie zurück?"</text>
+  <text x="810" y="645" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#091358">"Füge Fehlerbehandlung hinzu"</text>
 
   <!-- Bottom summary -->
   <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
-  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Functions = Reusable building blocks of code</text>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Funktionen = Wiederverwendbare Code-Bausteine</text>
 </svg>

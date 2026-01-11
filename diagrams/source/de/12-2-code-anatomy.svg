@@ -72,7 +72,7 @@
 
   <!-- Output label -->
   <rect x="908" y="260" width="200" height="50" fill="url(#steelBlue)"/>
-  <text x="1008" y="290" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">OUTPUT</text>
+  <text x="1008" y="290" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">AUSGABE</text>
   <line x1="908" y1="285" x2="868" y2="255" stroke="#6882a1" stroke-width="2"/>
 
   <!-- Call label -->

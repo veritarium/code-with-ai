@@ -36,7 +36,7 @@
 
   <!-- Title -->
   <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">DATENSTRUKTUREN</text>
-  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Ways to organize multiple pieces of data</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Wege, mehrere Datenteile zu organisieren</text>
 
   <!-- LIST -->
   <rect x="60" y="110" width="330" height="280" fill="url(#deepBlue)"/>
@@ -55,9 +55,9 @@
   <text x="290" y="238" font-family="Courier, monospace" font-size="14" fill="#091358" text-anchor="middle">16</text>
 
   <text x="225" y="280" font-family="Courier, monospace" font-size="12" fill="#0d0829" text-anchor="middle">bolt_sizes = [8, 10, 12, 16]</text>
-  <text x="225" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Access by position: bolt_sizes[0]</text>
-  <text x="225" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Add/remove items</text>
-  <text x="225" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Like a shopping list</text>
+  <text x="225" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Zugriff nach Position: bolt_sizes[0]</text>
+  <text x="225" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Elemente hinzufügen/entfernen</text>
+  <text x="225" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Wie eine Einkaufsliste</text>
 
   <!-- DICTIONARY -->
   <rect x="420" y="110" width="330" height="280" fill="url(#steelBlue)"/>
@@ -77,46 +77,46 @@
   <text x="575" y="275" font-family="Courier, monospace" font-size="12" fill="#091358">12.0</text>
 
   <text x="585" y="310" font-family="Courier, monospace" font-size="13" fill="#0d0829" text-anchor="middle">bolt = {"name": "M12", ...}</text>
-  <text x="585" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Access by name: bolt["grade"]</text>
-  <text x="585" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Like a real dictionary: word → definition</text>
+  <text x="585" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Zugriff nach Name: bolt["grade"]</text>
+  <text x="585" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Wie ein echtes Wörterbuch: Wort → Definition</text>
 
   <!-- TUPLE -->
   <rect x="780" y="110" width="330" height="280" fill="url(#deepBlue)"/>
-  <text x="945" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">TUPLE</text>
-  <text x="945" y="175" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Fixed, unchangeable list</text>
+  <text x="945" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">TUPEL</text>
+  <text x="945" y="175" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">Feste, unveränderbare Liste</text>
 
   <rect x="800" y="195" width="290" height="175" fill="#ffffff"/>
   <rect x="830" y="220" width="220" height="35" fill="#f5f5f5" stroke="#091358" stroke-width="1"/>
   <text x="940" y="243" font-family="Courier, monospace" font-size="12" fill="#091358" text-anchor="middle">(100.0, 200.5, 50.2)</text>
 
   <text x="945" y="290" font-family="Courier, monospace" font-size="13" fill="#0d0829" text-anchor="middle">coords = (100.0, 200.5, 50.2)</text>
-  <text x="945" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Can't change after creation</text>
-  <text x="945" y="345" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Good for coordinates, constants</text>
-  <text x="945" y="370" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Like a sealed envelope</text>
+  <text x="945" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Nach Erstellung nicht änderbar</text>
+  <text x="945" y="345" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle">Gut für Koordinaten, Konstanten</text>
+  <text x="945" y="370" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#091358" text-anchor="middle" font-style="italic">Wie ein versiegelter Umschlag</text>
 
   <!-- When to use -->
   <rect x="100" y="420" width="968" height="180" fill="#ffffff" stroke="#091358" stroke-width="2"/>
-  <text x="584" y="455" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#091358" text-anchor="middle">When To Use What</text>
+  <text x="584" y="455" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#091358" text-anchor="middle">Wann was benutzen</text>
 
   <text x="250" y="500" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">LISTE</text>
-  <text x="250" y="525" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Collection of similar items</text>
-  <text x="250" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Need to add/remove items</text>
+  <text x="250" y="525" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Sammlung ähnlicher Elemente</text>
+  <text x="250" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Elemente hinzufügen/entfernen nötig</text>
   <text x="250" y="575" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0d0829" text-anchor="middle" font-style="italic">bolt_sizes, measurements</text>
 
   <text x="584" y="500" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#6882a1" text-anchor="middle">WÖRTERBUCH</text>
-  <text x="584" y="525" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Named properties</text>
-  <text x="584" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Need to look up by name</text>
-  <text x="584" y="575" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0d0829" text-anchor="middle" font-style="italic">bolt specs, config settings</text>
+  <text x="584" y="525" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Benannte Eigenschaften</text>
+  <text x="584" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Nach Namen nachschlagen nötig</text>
+  <text x="584" y="575" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0d0829" text-anchor="middle" font-style="italic">Schrauben-Specs, Konfig-Einstellungen</text>
 
-  <text x="918" y="500" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">TUPLE</text>
-  <text x="918" y="525" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Fixed group of values</text>
-  <text x="918" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Should never change</text>
-  <text x="918" y="575" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0d0829" text-anchor="middle" font-style="italic">x,y,z coordinates</text>
+  <text x="918" y="500" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#091358" text-anchor="middle">TUPEL</text>
+  <text x="918" y="525" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Feste Wertegruppe</text>
+  <text x="918" y="550" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle">Sollte sich nie ändern</text>
+  <text x="918" y="575" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0d0829" text-anchor="middle" font-style="italic">x,y,z Koordinaten</text>
 
   <!-- Bottom summary -->
   <rect x="200" y="630" width="768" height="60" fill="#ffffff" stroke="#091358" stroke-width="2"/>
-  <text x="584" y="668" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Ask AI: "What data structure should I use for [description]?"</text>
+  <text x="584" y="668" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Frag KI: "Welche Datenstruktur für [Beschreibung]?"</text>
 
   <rect x="250" y="720" width="668" height="70" fill="url(#darkNavy)"/>
-  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Right structure = Cleaner, faster code</text>
+  <text x="584" y="760" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Richtige Struktur = Sauberer, schnellerer Code</text>
 </svg>

@@ -36,40 +36,40 @@
 
   <!-- Title -->
   <text x="584" y="45" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#0d0829" text-anchor="middle" letter-spacing="3">TESTEN</text>
-  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Verifying your code actually works</text>
+  <text x="584" y="75" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6882a1" text-anchor="middle" font-style="italic">Überprüfen, ob dein Code wirklich funktioniert</text>
 
   <!-- Analogy -->
   <rect x="200" y="100" width="768" height="60" fill="url(#darkNavy)"/>
-  <text x="584" y="138" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Testing = Quality control for code (like checking parts before assembly)</text>
+  <text x="584" y="138" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Testen = Qualitätskontrolle für Code (wie Teile vor der Montage prüfen)</text>
 
   <!-- Types of testing -->
   <rect x="60" y="190" width="330" height="220" fill="url(#goodGreen)"/>
-  <text x="225" y="230" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Manual Testing</text>
+  <text x="225" y="230" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Manuelles Testen</text>
   <rect x="80" y="250" width="290" height="140" fill="#ffffff"/>
-  <text x="100" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Run the code</text>
-  <text x="100" y="305" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Check the output</text>
-  <text x="100" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Try different inputs</text>
-  <text x="225" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Good for quick checks</text>
+  <text x="100" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Code ausführen</text>
+  <text x="100" y="305" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Ausgabe prüfen</text>
+  <text x="100" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Verschiedene Eingaben testen</text>
+  <text x="225" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Gut für schnelle Prüfungen</text>
 
   <rect x="420" y="190" width="330" height="220" fill="url(#steelBlue)"/>
-  <text x="585" y="230" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Automated Testing</text>
+  <text x="585" y="230" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Automatisiertes Testen</text>
   <rect x="440" y="250" width="290" height="140" fill="#ffffff"/>
-  <text x="460" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Write test code</text>
-  <text x="460" y="305" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Runs automatically</text>
-  <text x="460" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Catches regressions</text>
-  <text x="585" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Good for reliability</text>
+  <text x="460" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Testcode schreiben</text>
+  <text x="460" y="305" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Läuft automatisch</text>
+  <text x="460" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6882a1">Findet Regressionen</text>
+  <text x="585" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Gut für Zuverlässigkeit</text>
 
   <rect x="780" y="190" width="330" height="220" fill="url(#goodGreen)"/>
-  <text x="945" y="230" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Edge Case Testing</text>
+  <text x="945" y="230" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Grenzfall-Testen</text>
   <rect x="800" y="250" width="290" height="140" fill="#ffffff"/>
-  <text x="820" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Empty inputs</text>
-  <text x="820" y="305" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Extreme values</text>
-  <text x="820" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Invalid data</text>
-  <text x="945" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Good for robustness</text>
+  <text x="820" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Leere Eingaben</text>
+  <text x="820" y="305" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Extreme Werte</text>
+  <text x="820" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0a7c42">Ungültige Daten</text>
+  <text x="945" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6882a1" text-anchor="middle" font-style="italic">Gut für Robustheit</text>
 
   <!-- Test example -->
   <rect x="100" y="440" width="500" height="200" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
-  <text x="350" y="475" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42" text-anchor="middle">Simple Test Example</text>
+  <text x="350" y="475" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42" text-anchor="middle">Einfaches Testbeispiel</text>
 
   <rect x="120" y="495" width="460" height="120" fill="#f5f5f5"/>
   <text x="140" y="520" font-family="Courier, monospace" font-size="12" fill="#6882a1"># Test the function</text>
@@ -79,24 +79,24 @@
 
   <!-- Test results -->
   <rect x="650" y="440" width="420" height="200" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
-  <text x="860" y="475" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42" text-anchor="middle">Test Results</text>
+  <text x="860" y="475" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a7c42" text-anchor="middle">Testergebnisse</text>
 
   <rect x="680" y="505" width="160" height="50" fill="#f5fff5" stroke="#1a5f1a" stroke-width="2"/>
-  <text x="760" y="537" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a5f1a" text-anchor="middle">PASS</text>
+  <text x="760" y="537" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a5f1a" text-anchor="middle">BESTANDEN</text>
 
   <rect x="880" y="505" width="160" height="50" fill="#fff5f5" stroke="#b60002" stroke-width="2"/>
   <text x="960" y="537" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#b60002" text-anchor="middle">FEHLER</text>
 
-  <text x="760" y="590" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1a5f1a" text-anchor="middle">Code works!</text>
-  <text x="960" y="590" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#b60002" text-anchor="middle">Fix needed</text>
+  <text x="760" y="590" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1a5f1a" text-anchor="middle">Code funktioniert!</text>
+  <text x="960" y="590" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#b60002" text-anchor="middle">Korrektur nötig</text>
 
-  <text x="860" y="625" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Ask AI: "Write tests for this function"</text>
+  <text x="860" y="625" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6882a1" text-anchor="middle" font-style="italic">Frag KI: "Schreibe Tests für diese Funktion"</text>
 
   <!-- Key insight -->
   <rect x="200" y="670" width="768" height="50" fill="#ffffff" stroke="#0a7c42" stroke-width="2"/>
-  <text x="584" y="702" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Test before trusting: known input + expected output = verification</text>
+  <text x="584" y="702" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#0d0829" text-anchor="middle">Vor dem Vertrauen testen: bekannte Eingabe + erwartete Ausgabe = Verifizierung</text>
 
   <!-- Bottom summary -->
   <rect x="250" y="740" width="668" height="60" fill="url(#darkNavy)"/>
-  <text x="584" y="778" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Tested code = Trusted code</text>
+  <text x="584" y="778" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Getesteter Code = Vertrauenswürdiger Code</text>
 </svg>
