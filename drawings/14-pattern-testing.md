@@ -154,4 +154,4 @@ Tests are your safety net. They catch bugs before users do. Ask AI to write test
 
 ---
 
-[← Debugging Pattern](13-pattern-debugging.md) | [Home](../README.md)
+[← Debugging Pattern](13-pattern-debugging.md) | [Next: Engineering Calculation →](15-pattern-engineering-calc.md)
