@@ -4,6 +4,7 @@ theme: jekyll-theme-primer
 markdown: GFM
 
 exclude:
+  - README.md
   - NARRATION-SCRIPTS.md
   - VISION.md
   - CLAUDE.md
@@ -16,4 +17,5 @@ exclude:
   - diagrams/DESIGN-SYSTEM.md
   - create_presentation.py
   - From-NonCoder-to-Builder.pptx
+  - From-NonCoder-to-Builder.pdf
   - .venv/
