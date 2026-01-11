@@ -15,7 +15,7 @@ next_title: "Your First Project"
 
 Testing is quality control for code. You verify it actually works.
 
-![Testing](/assets/images/diagrams/16-1-testing.png)
+![Testing](/code-with-ai/assets/images/diagrams/16-1-testing.png)
 {: .chapter-diagram}
 *Figure 16.1: Testing — Verify it works*
 {: .diagram-caption}
@@ -70,7 +70,7 @@ If result doesn't match expected, you'll know immediately.
 
 Organizing files for bigger projects. Like a well-organized toolbox.
 
-![Project Structure](/assets/images/diagrams/16-2-project-structure.png)
+![Project Structure](/code-with-ai/assets/images/diagrams/16-2-project-structure.png)
 {: .chapter-diagram}
 *Figure 16.2: Project Structure — Organized files*
 {: .diagram-caption}

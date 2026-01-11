@@ -15,7 +15,7 @@ Time to apply everything. Here's the approach.
 
 **Start small, make it work, then expand.**
 
-![Your First Project](/assets/images/diagrams/17-1-your-first-project.png)
+![Your First Project](/code-with-ai/assets/images/diagrams/17-1-your-first-project.png)
 {: .chapter-diagram}
 *Figure 17.1: Your First Project — The approach*
 {: .diagram-caption}
@@ -62,7 +62,7 @@ Each step is small. Each step is testable. Each step gets you closer.
 
 Before calling it done, verify everything.
 
-![Project Checklist](/assets/images/diagrams/17-2-project-checklist.png)
+![Project Checklist](/code-with-ai/assets/images/diagrams/17-2-project-checklist.png)
 {: .chapter-diagram}
 *Figure 17.2: Project Checklist — Before you ship*
 {: .diagram-caption}

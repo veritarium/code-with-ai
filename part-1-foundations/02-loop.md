@@ -13,7 +13,7 @@ next_title: "Six Operations"
 
 This is how every coding session with AI actually works. Memorize this loop.
 
-![The Loop](/assets/images/diagrams/02-1-the-loop.png)
+![The Loop](/code-with-ai/assets/images/diagrams/02-1-the-loop.png)
 {: .chapter-diagram}
 *Figure 2.1: The Loop — Describe, Get, Run, Evaluate, Repeat*
 {: .diagram-caption}
@@ -44,7 +44,7 @@ This loop might run once. It might run ten times. That's normal. Every professio
 
 Here's what most beginners get wrong: they expect perfection on the first try.
 
-![The Draft](/assets/images/diagrams/02-2-the-draft.png)
+![The Draft](/code-with-ai/assets/images/diagrams/02-2-the-draft.png)
 {: .chapter-diagram}
 *Figure 2.2: The Draft — Progress through iteration*
 {: .diagram-caption}

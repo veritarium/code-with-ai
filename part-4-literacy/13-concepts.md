@@ -17,7 +17,7 @@ Variables are named containers for data. That's it.
 
 Think of them like labeled boxes. The name tells you what's inside.
 
-![Variables](/assets/images/diagrams/13-1-variables.png)
+![Variables](/code-with-ai/assets/images/diagrams/13-1-variables.png)
 {: .chapter-diagram}
 *Figure 13.1: Variables — Named containers for data*
 {: .diagram-caption}
@@ -75,7 +75,7 @@ Bad names: `x`, `bc`, `thing1`
 
 How programs make decisions and repeat actions. Three patterns handle most logic.
 
-![Control Flow](/assets/images/diagrams/13-2-control-flow.png)
+![Control Flow](/code-with-ai/assets/images/diagrams/13-2-control-flow.png)
 {: .chapter-diagram}
 *Figure 13.2: Control Flow — Decisions and repetition*
 {: .diagram-caption}

@@ -13,7 +13,7 @@ next_title: "Debugging"
 
 Let's talk about mistakes. Every beginner makes these. Now you won't.
 
-![Common Traps](/assets/images/diagrams/09-1-common-traps.png)
+![Common Traps](/code-with-ai/assets/images/diagrams/09-1-common-traps.png)
 {: .chapter-diagram}
 *Figure 9.1: Common Traps — Mistakes everyone makes*
 {: .diagram-caption}
@@ -52,7 +52,7 @@ Copy-paste without understanding. You never build skills this way.
 
 How much should you trust AI's output? It depends on the consequences of failure.
 
-![Trust Levels](/assets/images/diagrams/09-2-trust-levels.png)
+![Trust Levels](/code-with-ai/assets/images/diagrams/09-2-trust-levels.png)
 {: .chapter-diagram}
 *Figure 9.2: Trust Levels — How much verification is needed*
 {: .diagram-caption}

@@ -13,7 +13,7 @@ next_title: "Feedback"
 
 Not all prompts are equal. There's a spectrum from vague to precise, and where you land on that spectrum determines your success rate.
 
-![The Spectrum](/assets/images/diagrams/05-1-the-spectrum.png)
+![The Spectrum](/code-with-ai/assets/images/diagrams/05-1-the-spectrum.png)
 {: .chapter-diagram}
 *Figure 5.1: The Spectrum — From vague to precise*
 {: .diagram-caption}
@@ -41,7 +41,7 @@ Yes, writing precise prompts takes more time upfront. But it saves enormous time
 
 Here's a framework for building precise prompts. Five components.
 
-![Five Components](/assets/images/diagrams/05-2-five-components.png)
+![Five Components](/code-with-ai/assets/images/diagrams/05-2-five-components.png)
 {: .chapter-diagram}
 *Figure 5.2: Five Components — The framework for precise prompts*
 {: .diagram-caption}

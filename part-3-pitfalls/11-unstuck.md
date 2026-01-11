@@ -13,7 +13,7 @@ next_title: "Reading Code"
 
 Getting stuck is normal. Recognizing it early saves time.
 
-![Getting Stuck](/assets/images/diagrams/11-1-the-stuck.png)
+![Getting Stuck](/code-with-ai/assets/images/diagrams/11-1-the-stuck.png)
 {: .chapter-diagram}
 *Figure 11.1: The Stuck Loop — Recognize it early*
 {: .diagram-caption}
@@ -50,7 +50,7 @@ You're going in circles. Each attempt looks slightly different but you're not ac
 
 Six ways to get unstuck. Pick one based on your situation.
 
-![Escape Routes](/assets/images/diagrams/11-2-escape-routes.png)
+![Escape Routes](/code-with-ai/assets/images/diagrams/11-2-escape-routes.png)
 {: .chapter-diagram}
 *Figure 11.2: Escape Routes — Six ways out*
 {: .diagram-caption}

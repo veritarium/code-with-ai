@@ -15,7 +15,7 @@ next_title: "Quality"
 
 Ways to organize multiple pieces of data.
 
-![Data Structures](/assets/images/diagrams/15-1-data-structures.png)
+![Data Structures](/code-with-ai/assets/images/diagrams/15-1-data-structures.png)
 {: .chapter-diagram}
 *Figure 15.1: Data Structures — Organizing data*
 {: .diagram-caption}
@@ -61,7 +61,7 @@ Like a sealed envelope.
 
 Files are permanent storage. Data survives when the program ends.
 
-![Files and I/O](/assets/images/diagrams/15-2-files-io.png)
+![Files and I/O](/code-with-ai/assets/images/diagrams/15-2-files-io.png)
 {: .chapter-diagram}
 *Figure 15.2: Files and I/O — Permanent storage*
 {: .diagram-caption}

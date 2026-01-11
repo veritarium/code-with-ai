@@ -13,7 +13,7 @@ next_title: "Decomposition"
 
 Everything you'll ever do with AI coding falls into six categories. Just six.
 
-![Six Operations](/assets/images/diagrams/03-1-six-operations.png)
+![Six Operations](/code-with-ai/assets/images/diagrams/03-1-six-operations.png)
 {: .chapter-diagram}
 *Figure 3.1: The Six Operations — Everything you can do with AI*
 {: .diagram-caption}

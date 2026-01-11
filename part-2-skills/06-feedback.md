@@ -15,7 +15,7 @@ AI gave you something. It's not quite right. What do you say next?
 
 This is where most beginners fail. They give bad feedback, and then wonder why AI keeps giving them wrong answers.
 
-![Good vs Bad Feedback](/assets/images/diagrams/06-1-good-vs-bad.png)
+![Good vs Bad Feedback](/code-with-ai/assets/images/diagrams/06-1-good-vs-bad.png)
 {: .chapter-diagram}
 *Figure 6.1: Good vs Bad Feedback — What works and what doesn't*
 {: .diagram-caption}
@@ -52,7 +52,7 @@ See the pattern? Good feedback is specific. It tells AI exactly what's wrong and
 
 Here's a formula you can use every time AI gives you something that's not quite right:
 
-![The Formula](/assets/images/diagrams/06-2-the-formula.png)
+![The Formula](/code-with-ai/assets/images/diagrams/06-2-the-formula.png)
 {: .chapter-diagram}
 *Figure 6.2: The Feedback Formula — Got X, Expected Y, Change Z*
 {: .diagram-caption}

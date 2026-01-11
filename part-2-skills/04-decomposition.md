@@ -13,7 +13,7 @@ next_title: "Precision"
 
 This is the single most important skill for coding with AI: breaking big things into small things.
 
-![Decomposition](/assets/images/diagrams/04-1-decomposition.png)
+![Decomposition](/code-with-ai/assets/images/diagrams/04-1-decomposition.png)
 {: .chapter-diagram}
 *Figure 4.1: Decomposition — Breaking big tasks into AI-sized pieces*
 {: .diagram-caption}
@@ -48,7 +48,7 @@ Think of it like engineering drawings. You don't hand someone a napkin sketch an
 
 Here's a simple test to know if your task is the right size.
 
-![The Rule](/assets/images/diagrams/04-2-the-rule.png)
+![The Rule](/code-with-ai/assets/images/diagrams/04-2-the-rule.png)
 {: .chapter-diagram}
 *Figure 4.2: The One-Sentence Rule — The test for right-sized tasks*
 {: .diagram-caption}

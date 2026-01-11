@@ -13,7 +13,7 @@ next_title: "Common Pitfalls"
 
 Sometimes you need to know when to stop refining and start fresh.
 
-![The Decision](/assets/images/diagrams/08-1-the-decision.png)
+![The Decision](/code-with-ai/assets/images/diagrams/08-1-the-decision.png)
 {: .chapter-diagram}
 *Figure 8.1: The Decision — Refine or restart?*
 {: .diagram-caption}
@@ -50,7 +50,7 @@ Signs to restart:
 
 Here's a simple rule: **Five attempts maximum, then restart.**
 
-![The 5-Attempt Rule](/assets/images/diagrams/08-2-the-5-attempt-rule.png)
+![The 5-Attempt Rule](/code-with-ai/assets/images/diagrams/08-2-the-5-attempt-rule.png)
 {: .chapter-diagram}
 *Figure 8.2: The 5-Attempt Rule — Know when to cut losses*
 {: .diagram-caption}

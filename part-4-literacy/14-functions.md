@@ -15,7 +15,7 @@ next_title: "Data and Files"
 
 A function is like a machine: put something in, get something out.
 
-![Functions](/assets/images/diagrams/14-1-functions.png)
+![Functions](/code-with-ai/assets/images/diagrams/14-1-functions.png)
 {: .chapter-diagram}
 *Figure 14.1: Functions — Reusable building blocks*
 {: .diagram-caption}
@@ -59,7 +59,7 @@ result = calculate_stress(1000, 4)
 
 Libraries are pre-built code you can use. Don't reinvent the wheel.
 
-![Libraries](/assets/images/diagrams/14-2-libraries.png)
+![Libraries](/code-with-ai/assets/images/diagrams/14-2-libraries.png)
 {: .chapter-diagram}
 *Figure 14.2: Libraries — Stand on shoulders of giants*
 {: .diagram-caption}

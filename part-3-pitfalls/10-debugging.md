@@ -13,7 +13,7 @@ next_title: "Getting Unstuck"
 
 Your code doesn't work. Here's the systematic approach to fixing it.
 
-![The Debugging Flow](/assets/images/diagrams/10-1-the-debugging.png)
+![The Debugging Flow](/code-with-ai/assets/images/diagrams/10-1-the-debugging.png)
 {: .chapter-diagram}
 *Figure 10.1: The Debugging Flow — A systematic approach*
 {: .diagram-caption}
@@ -57,7 +57,7 @@ Your code doesn't work. Here's the systematic approach to fixing it.
 
 Understanding error types helps you describe them better to AI.
 
-![Error Types](/assets/images/diagrams/10-2-error-types.png)
+![Error Types](/code-with-ai/assets/images/diagrams/10-2-error-types.png)
 {: .chapter-diagram}
 *Figure 10.2: Error Types — Know your errors*
 {: .diagram-caption}

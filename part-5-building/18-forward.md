@@ -15,7 +15,7 @@ next_title: null
 
 Here's the progression from beginner to confident.
 
-![Growing Your Skills](/assets/images/diagrams/18-1-growing-skills.png)
+![Growing Your Skills](/code-with-ai/assets/images/diagrams/18-1-growing-skills.png)
 {: .chapter-diagram}
 *Figure 18.1: Growing Your Skills — The progression*
 {: .diagram-caption}
@@ -56,7 +56,7 @@ You'll move through these stages naturally as you build more projects. Each proj
 
 Where to go when you need help.
 
-![Resources](/assets/images/diagrams/18-2-resources.png)
+![Resources](/code-with-ai/assets/images/diagrams/18-2-resources.png)
 {: .chapter-diagram}
 *Figure 18.2: Resources — Where to get help*
 {: .diagram-caption}
@@ -104,7 +104,7 @@ Most problems solved in 1-2 steps.
 
 Look how far you've come.
 
-![The Journey](/assets/images/diagrams/18-3-the-journey.png)
+![The Journey](/code-with-ai/assets/images/diagrams/18-3-the-journey.png)
 {: .chapter-diagram}
 *Figure 18.3: The Journey — How far you've come*
 {: .diagram-caption}
@@ -142,7 +142,7 @@ Look how far you've come.
 
 Everything in one page.
 
-![Key Takeaways](/assets/images/diagrams/18-4-summary.png)
+![Key Takeaways](/code-with-ai/assets/images/diagrams/18-4-summary.png)
 {: .chapter-diagram}
 *Figure 18.4: Key Takeaways — Everything summarized*
 {: .diagram-caption}

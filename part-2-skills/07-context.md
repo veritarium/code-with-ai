@@ -13,7 +13,7 @@ next_title: "When to Restart"
 
 This concept will change how you work with AI.
 
-![The Window](/assets/images/diagrams/07-1-the-window.png)
+![The Window](/code-with-ai/assets/images/diagrams/07-1-the-window.png)
 {: .chapter-diagram}
 *Figure 7.1: The Window — AI only sees what's in the prompt*
 {: .diagram-caption}
@@ -49,7 +49,7 @@ Make the window bigger. The more context you share, the better AI understands. I
 
 There are five types of context that dramatically improve AI results.
 
-![What to Share](/assets/images/diagrams/07-2-what-to-share.png)
+![What to Share](/code-with-ai/assets/images/diagrams/07-2-what-to-share.png)
 {: .chapter-diagram}
 *Figure 7.2: What to Share — Five types of context*
 {: .diagram-caption}

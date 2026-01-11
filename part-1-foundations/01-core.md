@@ -15,7 +15,7 @@ Let's start with the most important concept in this entire tutorial.
 
 You don't need to become a programmer. You need to become a *builder*.
 
-![The Core Partnership](/assets/images/diagrams/01-1-the-core.png)
+![The Core Partnership](/code-with-ai/assets/images/diagrams/01-1-the-core.png)
 {: .chapter-diagram}
 *Figure 1.1: The Core — You and AI collaborate through prompts to create software*
 {: .diagram-caption}

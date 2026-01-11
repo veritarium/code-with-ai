@@ -15,7 +15,7 @@ Here's a secret: You don't need to write code to understand it.
 
 Reading code is like reading a recipe. You can follow along without being a chef. You can understand what's happening without knowing how to create it from scratch.
 
-![Learning to Read Code](/assets/images/diagrams/12-1-learning-to-read.png)
+![Learning to Read Code](/code-with-ai/assets/images/diagrams/12-1-learning-to-read.png)
 {: .chapter-diagram}
 *Figure 12.1: Learning to Read Code — What to look for*
 {: .diagram-caption}
@@ -62,7 +62,7 @@ Focus on the big picture first.
 
 Let me show you the universal parts of every program. Once you know these, you can read any code.
 
-![Code Anatomy](/assets/images/diagrams/12-2-code-anatomy.png)
+![Code Anatomy](/code-with-ai/assets/images/diagrams/12-2-code-anatomy.png)
 {: .chapter-diagram}
 *Figure 12.2: Code Anatomy — The universal parts*
 {: .diagram-caption}
