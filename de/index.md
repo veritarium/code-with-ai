@@ -5,7 +5,7 @@ lang: de
 dir: ltr
 ---
 
-# Vom Nicht-Programmierer zum Baumeister
+# Vom Nicht-Programmierer zum Builder
 ## Programmieren mit KI für Ingenieure
 
 Ein visuelles Tutorial für kluge Menschen, die noch nicht programmieren.

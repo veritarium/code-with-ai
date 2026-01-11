@@ -8,7 +8,7 @@ layout: default
   {{ page.title }}
 </div>
 
-<h1>Chapter {{ page.chapter }}: {{ page.title }}</h1>
+<h1>{% if page.lang == 'de' %}Kapitel{% else %}Chapter{% endif %} {{ page.chapter }}: {{ page.title }}</h1>
 
 {{ content }}
 
