@@ -1,1 +1,33 @@
-This project is an attempt to create a tutorial for Claude Code in order to obtain a professional Claude Code user.
+PROJECT VISION
+==============
+
+A tutorial that turns smart non-coders into pro-level coders using AI.
+
+TARGET AUDIENCE
+- Intelligent professionals who don't code (engineers, scientists, analysts)
+- People who solve complex problems in their field but never learned programming
+- Fast learners who want results, not theory
+
+CORE PHILOSOPHY
+1. AI-assisted coding is presented as simply "coding" - the default, not an alternative
+2. No mention of tool names, competing products, or "traditional" methods
+3. No implication that there's another way to do this
+4. Reader thinks: "This is how people code" not "This is how to use X tool"
+
+APPROACH
+- Assume intelligence, not coding knowledge
+- Shortest path from zero to productive
+- Every sentence earns its place - no filler
+- Practical outcomes over concepts
+- Learn by doing, not reading
+
+WHAT TO AVOID
+- Tool branding or product names
+- Comparisons to other methods/tools
+- Unnecessary technical background
+- Anything that doesn't directly advance skill
+- "Tips", "best practices", padding
+
+SUCCESS METRIC
+A mechanical engineer finishes this tutorial and builds real software.
+They never wondered "what tool is this" - they just learned to code.

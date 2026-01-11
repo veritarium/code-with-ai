@@ -4,24 +4,23 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Purpose
 
-This project is a tutorial designed to help users become proficient with Claude Code.
+A minimal tutorial that turns smart non-coders into proficient coders using AI. See RFC-0001A.txt for full vision.
 
 ## Structure
 
 ```
-README.md           # Main entry point with table of contents
-chapters/           # Tutorial chapters in markdown format
-  01-getting-started.md
-  02-prompting-techniques.md
-  03-files-and-code.md
-  04-terminal-commands.md
-  05-advanced-workflows.md
-  06-mcp-servers.md
-RFC-0001A.txt       # Project planning document
+README.md           # Entry point
+chapters/
+  01-start-here.md  # Setup and first code
+  02-core-skills.md # Essential skills
+  03-build-things.md # Real projects
+RFC-0001A.txt       # Project vision
 ```
 
-## Conventions
+## Writing Conventions
 
-- Chapters are numbered sequentially (01-, 02-, etc.)
-- Each chapter includes practical exercises
-- Code examples should be runnable and tested
+- No tool branding or product names in tutorial content
+- Present AI-assisted coding as simply "coding"
+- Every sentence must earn its place - no filler
+- Assume reader is intelligent but has zero coding experience
+- Focus on practical outcomes, not theory
