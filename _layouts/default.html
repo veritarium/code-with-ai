@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primer-css/21.0.7/primer.min.css">
-  {% if page.lang == 'fa' %}
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
-  {% endif %}
   <style>
     * { box-sizing: border-box; }
 
@@ -31,47 +28,6 @@
       color: #24292e;
       margin: 0;
       padding: 0;
-    }
-
-    /* RTL Support for Farsi */
-    html[dir="rtl"] body {
-      font-family: "Vazirmatn", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    }
-
-    html[dir="rtl"] .sidebar {
-      left: auto;
-      right: -280px;
-      border-right: none;
-      border-left: 1px solid var(--border);
-    }
-
-    html[dir="rtl"] .sidebar.open {
-      right: 0;
-      left: auto;
-    }
-
-    html[dir="rtl"] .sidebar-links a {
-      padding: 0.6rem 1.75rem 0.6rem 1.25rem;
-      border-left: none;
-      border-right: 3px solid transparent;
-    }
-
-    html[dir="rtl"] .sidebar-links a:hover,
-    html[dir="rtl"] .sidebar-links a.active {
-      border-left-color: transparent;
-      border-right-color: var(--blue);
-    }
-
-    @media (min-width: 768px) {
-      html[dir="rtl"] .sidebar {
-        right: 0;
-        left: auto;
-      }
-
-      html[dir="rtl"] .main-content {
-        margin-left: 0;
-        margin-right: 280px;
-      }
     }
 
     /* Language switcher */
@@ -624,8 +580,8 @@
   </div>
 
   <header class="site-header">
-    <a href="{% if page.lang == 'de' %}{{ '/de/' | relative_url }}{% elsif page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="site-title">
-      {% if page.lang == 'de' %}Vom Nicht-Programmierer zum Builder{% elsif page.lang == 'fa' %}از غیربرنامه‌نویس به سازنده{% else %}From Non-Coder to Builder{% endif %}
+    <a href="{% if page.lang == 'de' %}{{ '/de/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="site-title">
+      {% if page.lang == 'de' %}Vom Nicht-Programmierer zum Builder{% else %}From Non-Coder to Builder{% endif %}
     </a>
     <div style="display: flex; align-items: center; gap: 1rem;">
       <div class="lang-switcher">
@@ -641,68 +597,67 @@
   <aside class="sidebar" id="sidebar">
     {% assign lang_prefix = '' %}
     {% if page.lang == 'de' %}{% assign lang_prefix = '/de' %}{% endif %}
-    {% if page.lang == 'fa' %}{% assign lang_prefix = '/fa' %}{% endif %}
 
     <div class="sidebar-section">
       <a href="{{ lang_prefix | append: '/part-1-foundations/' | relative_url }}" class="sidebar-section-title">
-        {% if page.lang == 'de' %}Teil 1: Grundlagen{% elsif page.lang == 'fa' %}بخش ۱: مبانی{% else %}Part 1: Foundations{% endif %}
+        {% if page.lang == 'de' %}Teil 1: Grundlagen{% else %}Part 1: Foundations{% endif %}
       </a>
       <ul class="sidebar-links">
-        <li><a href="{{ lang_prefix | append: '/part-1-foundations/01-core' | relative_url }}">1. {% if page.lang == 'de' %}Die Kernpartnerschaft{% elsif page.lang == 'fa' %}مشارکت اصلی{% else %}The Core Partnership{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-1-foundations/02-loop' | relative_url }}">2. {% if page.lang == 'de' %}Die Schleife{% elsif page.lang == 'fa' %}حلقه{% else %}The Loop{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-1-foundations/03-operations' | relative_url }}">3. {% if page.lang == 'de' %}Sechs Operationen{% elsif page.lang == 'fa' %}شش عملیات{% else %}Six Operations{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-1-foundations/01-core' | relative_url }}">1. {% if page.lang == 'de' %}Die Kernpartnerschaft{% else %}The Core Partnership{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-1-foundations/02-loop' | relative_url }}">2. {% if page.lang == 'de' %}Die Schleife{% else %}The Loop{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-1-foundations/03-operations' | relative_url }}">3. {% if page.lang == 'de' %}Sechs Operationen{% else %}Six Operations{% endif %}</a></li>
       </ul>
     </div>
 
     <div class="sidebar-section">
       <a href="{{ lang_prefix | append: '/part-2-skills/' | relative_url }}" class="sidebar-section-title">
-        {% if page.lang == 'de' %}Teil 2: Fähigkeiten{% elsif page.lang == 'fa' %}بخش ۲: مهارت‌ها{% else %}Part 2: Skills{% endif %}
+        {% if page.lang == 'de' %}Teil 2: Fähigkeiten{% else %}Part 2: Skills{% endif %}
       </a>
       <ul class="sidebar-links">
-        <li><a href="{{ lang_prefix | append: '/part-2-skills/04-decomposition' | relative_url }}">4. {% if page.lang == 'de' %}Zerlegung{% elsif page.lang == 'fa' %}تجزیه{% else %}Decomposition{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-2-skills/05-precision' | relative_url }}">5. {% if page.lang == 'de' %}Präzision{% elsif page.lang == 'fa' %}دقت{% else %}Precision{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-2-skills/06-feedback' | relative_url }}">6. {% if page.lang == 'de' %}Feedback{% elsif page.lang == 'fa' %}بازخورد{% else %}Feedback{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-2-skills/07-context' | relative_url }}">7. {% if page.lang == 'de' %}Kontext{% elsif page.lang == 'fa' %}زمینه{% else %}Context{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-2-skills/08-restart' | relative_url }}">8. {% if page.lang == 'de' %}Wann neu starten{% elsif page.lang == 'fa' %}چه زمانی از نو شروع کنیم{% else %}When to Restart{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-2-skills/04-decomposition' | relative_url }}">4. {% if page.lang == 'de' %}Zerlegung{% else %}Decomposition{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-2-skills/05-precision' | relative_url }}">5. {% if page.lang == 'de' %}Präzision{% else %}Precision{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-2-skills/06-feedback' | relative_url }}">6. {% if page.lang == 'de' %}Feedback{% else %}Feedback{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-2-skills/07-context' | relative_url }}">7. {% if page.lang == 'de' %}Kontext{% else %}Context{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-2-skills/08-restart' | relative_url }}">8. {% if page.lang == 'de' %}Wann neu starten{% else %}When to Restart{% endif %}</a></li>
       </ul>
     </div>
 
     <div class="sidebar-section">
       <a href="{{ lang_prefix | append: '/part-3-pitfalls/' | relative_url }}" class="sidebar-section-title">
-        {% if page.lang == 'de' %}Teil 3: Probleme{% elsif page.lang == 'fa' %}بخش ۳: مشکلات{% else %}Part 3: Problems{% endif %}
+        {% if page.lang == 'de' %}Teil 3: Probleme{% else %}Part 3: Problems{% endif %}
       </a>
       <ul class="sidebar-links">
-        <li><a href="{{ lang_prefix | append: '/part-3-pitfalls/09-traps' | relative_url }}">9. {% if page.lang == 'de' %}Häufige Fallen{% elsif page.lang == 'fa' %}تله‌های رایج{% else %}Common Pitfalls{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-3-pitfalls/10-debugging' | relative_url }}">10. {% if page.lang == 'de' %}Fehlersuche{% elsif page.lang == 'fa' %}اشکال‌زدایی{% else %}Debugging{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-3-pitfalls/11-unstuck' | relative_url }}">11. {% if page.lang == 'de' %}Weiterkommen{% elsif page.lang == 'fa' %}رهایی از بن‌بست{% else %}Getting Unstuck{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-3-pitfalls/09-traps' | relative_url }}">9. {% if page.lang == 'de' %}Häufige Fallen{% else %}Common Pitfalls{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-3-pitfalls/10-debugging' | relative_url }}">10. {% if page.lang == 'de' %}Fehlersuche{% else %}Debugging{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-3-pitfalls/11-unstuck' | relative_url }}">11. {% if page.lang == 'de' %}Weiterkommen{% else %}Getting Unstuck{% endif %}</a></li>
       </ul>
     </div>
 
     <div class="sidebar-section">
       <a href="{{ lang_prefix | append: '/part-4-literacy/' | relative_url }}" class="sidebar-section-title">
-        {% if page.lang == 'de' %}Teil 4: Code verstehen{% elsif page.lang == 'fa' %}بخش ۴: سواد کد{% else %}Part 4: Code Literacy{% endif %}
+        {% if page.lang == 'de' %}Teil 4: Code verstehen{% else %}Part 4: Code Literacy{% endif %}
       </a>
       <ul class="sidebar-links">
-        <li><a href="{{ lang_prefix | append: '/part-4-literacy/12-reading' | relative_url }}">12. {% if page.lang == 'de' %}Code lesen{% elsif page.lang == 'fa' %}خواندن کد{% else %}Reading Code{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-4-literacy/13-concepts' | relative_url }}">13. {% if page.lang == 'de' %}Kernkonzepte{% elsif page.lang == 'fa' %}مفاهیم اصلی{% else %}Core Concepts{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-4-literacy/14-functions' | relative_url }}">14. {% if page.lang == 'de' %}Funktionen{% elsif page.lang == 'fa' %}توابع{% else %}Functions & Libraries{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-4-literacy/15-data' | relative_url }}">15. {% if page.lang == 'de' %}Daten und Dateien{% elsif page.lang == 'fa' %}داده و فایل{% else %}Data and Files{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-4-literacy/16-quality' | relative_url }}">16. {% if page.lang == 'de' %}Qualität{% elsif page.lang == 'fa' %}کیفیت{% else %}Quality{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-4-literacy/12-reading' | relative_url }}">12. {% if page.lang == 'de' %}Code lesen{% else %}Reading Code{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-4-literacy/13-concepts' | relative_url }}">13. {% if page.lang == 'de' %}Kernkonzepte{% else %}Core Concepts{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-4-literacy/14-functions' | relative_url }}">14. {% if page.lang == 'de' %}Funktionen{% else %}Functions & Libraries{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-4-literacy/15-data' | relative_url }}">15. {% if page.lang == 'de' %}Daten und Dateien{% else %}Data and Files{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-4-literacy/16-quality' | relative_url }}">16. {% if page.lang == 'de' %}Qualität{% else %}Quality{% endif %}</a></li>
       </ul>
     </div>
 
     <div class="sidebar-section">
       <a href="{{ lang_prefix | append: '/part-5-building/' | relative_url }}" class="sidebar-section-title">
-        {% if page.lang == 'de' %}Teil 5: Bauen{% elsif page.lang == 'fa' %}بخش ۵: ساختن{% else %}Part 5: Building{% endif %}
+        {% if page.lang == 'de' %}Teil 5: Bauen{% else %}Part 5: Building{% endif %}
       </a>
       <ul class="sidebar-links">
-        <li><a href="{{ lang_prefix | append: '/part-5-building/17-first-project' | relative_url }}">17. {% if page.lang == 'de' %}Erstes Projekt{% elsif page.lang == 'fa' %}اولین پروژه{% else %}Your First Project{% endif %}</a></li>
-        <li><a href="{{ lang_prefix | append: '/part-5-building/18-forward' | relative_url }}">18. {% if page.lang == 'de' %}Weiter geht's{% elsif page.lang == 'fa' %}گام بعدی{% else %}Moving Forward{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-5-building/17-first-project' | relative_url }}">17. {% if page.lang == 'de' %}Erstes Projekt{% else %}Your First Project{% endif %}</a></li>
+        <li><a href="{{ lang_prefix | append: '/part-5-building/18-forward' | relative_url }}">18. {% if page.lang == 'de' %}Weiter geht's{% else %}Moving Forward{% endif %}</a></li>
       </ul>
     </div>
 
     <div class="sidebar-download">
-      <a href="{{ '/Cheat-Sheet.pdf' | relative_url }}">📥 {% if page.lang == 'de' %}Spickzettel{% elsif page.lang == 'fa' %}برگه تقلب{% else %}Download Cheat Sheet{% endif %}</a>
+      <a href="{{ '/Cheat-Sheet.pdf' | relative_url }}">📥 {% if page.lang == 'de' %}Spickzettel{% else %}Download Cheat Sheet{% endif %}</a>
     </div>
   </aside>
 
