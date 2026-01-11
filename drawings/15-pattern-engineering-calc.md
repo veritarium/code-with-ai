@@ -166,6 +166,51 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+## Reading This Drawing
+
+**The Five-Stage Pipeline (Top):** Engineering calculations follow this flow:
+- **INPUT:** Dimensions, material properties, loads. The raw data.
+- **VALIDATE:** Check units, check ranges, verify required fields. Catch bad data before calculating.
+- **CALCULATE:** Apply formulas step by step. This is where the engineering happens.
+- **CHECK:** Compare results to criteria. Pass/fail based on FoS, deflection limits, allowable stress.
+- **OUTPUT:** Report with units. Clear summary of inputs, results, and pass/fail status.
+
+**The Calculation Structure:** How to organize any engineering calculation:
+1. **INPUTS:** Define all variables with units. `P = 1000 # N` and `L = 2.5 # m`
+2. **PROPERTIES:** Material and section data. `E = 200e9 # Pa (steel)` and `I = 8.33e-6 # m⁴`
+3. **CALCULATION:** Apply formula step by step. `δ = (P * L³) / (48 * E * I)`
+4. **CONVERT:** Output in useful units. `δ_mm = δ * 1000`
+5. **CHECK:** Compare to criteria. `limit = L / 360` and `ok = δ < limit`
+
+Each step is documented. Anyone can follow the logic.
+
+**Common Calculation Types Table:** Prompt templates for different engineering analyses:
+- **Stress:** "Calculate [stress type] given [loads] and [geometry]. Check against [σ_allow]"
+- **Deflection:** "Calculate deflection of [beam type] with [load]. Check against L/[limit]"
+- **Thermal:** "Calculate expansion/heat transfer for [material] with ΔT = [value]"
+- **Fluid:** "Calculate [pressure drop / flow rate] for [pipe/channel] with [conditions]"
+- **Sizing:** "Size [component] for [load/flow] with factor of safety [FoS]"
+
+**Material Properties Pattern:** How to create reusable material data:
+- Create a database with properties: E, σy, ρ for each material
+- Function to lookup by name: `material = get_material("Steel A36")`
+- Use properties directly: `E = material.E`
+
+Build once, use across all calculations.
+
+**Build Sequence (Beam Calculator Example):** Seven steps to build a complete calculator:
+1. **CORE FORMULA:** The basic equation working
+2. **UNITS HANDLING:** Input in practical units, convert internally
+3. **SECTION CALCULATION:** Calculate I for different shapes
+4. **MATERIAL LOOKUP:** Database of material properties
+5. **LIMIT CHECK:** Deflection limit pass/fail
+6. **STRESS CHECK:** Yield check with FoS
+7. **OUTPUT REPORT:** Formatted summary with units
+
+**The Output Format Example:** Shows a professional report layout with inputs, results, and pass/fail indicators. This is what your calculation should produce.
+
+**Key Rule (Bottom):** "Always include units. Always check against limits." Two non-negotiables for engineering calculations.
+
 ## What This Shows
 
 Engineering calculations: Input → Validate → Calculate → Check → Output. Always track units. Always check results against limits (deflection limits, yield stress, factor of safety). Build step by step: core formula first, then add units handling, material lookup, checks, and reporting.
@@ -173,6 +218,17 @@ Engineering calculations: Input → Validate → Calculate → Check → Output.
 ## Key Insight
 
 The formulas you already know become reusable tools. Build once, use forever. Let AI handle the code—you focus on the engineering.
+
+## What This Means In Practice
+
+When building an engineering calculator:
+1. Start with the core formula (one prompt)
+2. Add unit conversion (one prompt)
+3. Add material database if needed (one prompt)
+4. Add limit checks (one prompt)
+5. Add formatted output (one prompt)
+
+You provide the formulas and criteria. AI writes the code. The result is a tool you can reuse for every project.
 
 ---
 
