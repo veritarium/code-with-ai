@@ -9,7 +9,7 @@ dir: ltr
 
 Lade die einseitige PDF-Zusammenfassung von allem herunter, was du gelernt hast.
 
-<a href="/Cheat-Sheet.pdf" class="btn-primary">Spickzettel herunterladen (PDF)</a>
+<a href="/Spickzettel.pdf" class="btn-primary">Spickzettel herunterladen (PDF)</a>
 
 ![Spickzettel](/assets/images/diagrams/de/cheat-sheet.png)
 

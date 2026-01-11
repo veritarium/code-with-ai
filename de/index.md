@@ -10,7 +10,7 @@ dir: ltr
 
 Ein visuelles Tutorial für kluge Menschen, die noch nicht programmieren.
 
-<a href="{{ site.baseurl }}/de/part-1-foundations/01-core" class="btn-primary">Tutorial starten</a> &nbsp; <a href="{{ site.baseurl }}/Cheat-Sheet.pdf" class="btn-primary" style="background:#6882a1;">Spickzettel herunterladen (PDF)</a>
+<a href="{{ site.baseurl }}/de/part-1-foundations/01-core" class="btn-primary">Tutorial starten</a> &nbsp; <a href="{{ site.baseurl }}/Spickzettel.pdf" class="btn-primary" style="background:#6882a1;">Spickzettel herunterladen (PDF)</a>
 
 ---
 
@@ -98,7 +98,7 @@ claude
 | Reparieren | „Ich bekomme diesen Fehler: [Fehler einfügen]. Behebe ihn." |
 | Erweitern | „Füge eine Funktion hinzu, um Ergebnisse als CSV zu exportieren" |
 
-[Vollständigen Spickzettel herunterladen (PDF)]({{ site.baseurl }}/Cheat-Sheet.pdf)
+[Vollständigen Spickzettel herunterladen (PDF)]({{ site.baseurl }}/Spickzettel.pdf)
 
 ---
 
