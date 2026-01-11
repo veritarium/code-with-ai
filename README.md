@@ -15,9 +15,9 @@ claude
 
 ---
 
-## The Drawings
+## Part 1: Foundations
 
-### Foundations
+*The mental models. Understand these and everything else makes sense.*
 
 | # | Drawing | What You Learn |
 |---|---------|----------------|
@@ -26,7 +26,11 @@ claude
 | 03 | [Decomposition](drawings/03-decomposition.md) | Breaking big into small |
 | 04 | [Operations](drawings/04-operations.md) | The six things you can do |
 
-### Mastery
+---
+
+## Part 2: Mastery
+
+*The skills that separate good from great.*
 
 | # | Drawing | What You Learn |
 |---|---------|----------------|
@@ -34,18 +38,44 @@ claude
 | 06 | [Specificity](drawings/06-specificity.md) | Precision in, precision out |
 | 07 | [Iteration](drawings/07-iteration.md) | How to refine effectively |
 
-### Patterns
+---
+
+## Part 3: Patterns
+
+*Reusable shapes. Recognize the pattern, apply it to your problem.*
+
+### Building
 
 | # | Drawing | What You Learn |
 |---|---------|----------------|
 | 08 | [Data Pipeline](drawings/08-pattern-pipeline.md) | Processing data from input to output |
 | 09 | [Web App](drawings/09-pattern-webapp.md) | Building interactive applications |
 | 10 | [Build Incrementally](drawings/10-build-incrementally.md) | Small verified steps |
+
+### Connecting
+
+| # | Drawing | What You Learn |
+|---|---------|----------------|
 | 11 | [Automation](drawings/11-pattern-automation.md) | Triggers, actions, scheduled tasks |
 | 12 | [API](drawings/12-pattern-api.md) | Request/response, endpoints, CRUD |
+
+### Quality
+
+| # | Drawing | What You Learn |
+|---|---------|----------------|
 | 13 | [Debugging](drawings/13-pattern-debugging.md) | Finding and fixing problems |
 | 14 | [Testing](drawings/14-pattern-testing.md) | Verifying code works correctly |
+
+### Domain
+
+| # | Drawing | What You Learn |
+|---|---------|----------------|
 | 15 | [Engineering Calculation](drawings/15-pattern-engineering-calc.md) | Formulas, units, design checks |
+
+### Capstone
+
+| # | Drawing | What You Learn |
+|---|---------|----------------|
 | 16 | [Complete Project](drawings/16-complete-project.md) | Idea to working software |
 
 ---
