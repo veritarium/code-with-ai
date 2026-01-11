@@ -142,4 +142,4 @@ The error message is your friend. Paste it, describe what you expected, let AI f
 
 ---
 
-[← API Pattern](12-pattern-api.md) | [Home](../README.md)
+[← API Pattern](12-pattern-api.md) | [Next: Testing Pattern →](14-pattern-testing.md)

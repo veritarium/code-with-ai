@@ -11,7 +11,7 @@ A visual tutorial that teaches AI coding through drawings. See VISION.md for ful
 ```
 README.md           # Entry point with drawing index
 VISION.md           # Project philosophy and principles
-drawings/           # The 13 core drawings
+drawings/           # The 14 core drawings
   01-the-core.md
   02-the-loop.md
   03-decomposition.md
@@ -25,6 +25,7 @@ drawings/           # The 13 core drawings
   11-pattern-automation.md
   12-pattern-api.md
   13-pattern-debugging.md
+  14-pattern-testing.md
 ```
 
 ## Content Principles
