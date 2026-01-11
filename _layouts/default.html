@@ -7,413 +7,574 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primer-css/21.0.7/primer.min.css">
   <style>
     * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      color: #24292e;
-      margin: 0;
+
+    :root {
+      --navy: #0d0829;
+      --blue: #091358;
+      --steel: #6882a1;
+      --red: #b60002;
+      --gray: #f6f8fa;
+      --border: #e1e4e8;
     }
 
-    /* Header */
+    html {
+      font-size: 18px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: #24292e;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Mobile-first: Header */
     .site-header {
-      background: #0d0829;
-      padding: 1rem 0;
+      background: var(--navy);
+      padding: 0.75rem 1rem;
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       z-index: 100;
-    }
-    .site-header a {
-      color: #ffffff;
-      text-decoration: none;
-    }
-    .site-header h1 {
-      margin: 0;
-      font-size: 1.5rem;
-    }
-    .header-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 0 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    .site-nav a {
-      color: #6882a1;
-      margin-left: 1.5rem;
-      font-size: 0.9rem;
+
+    .site-header a {
+      color: #fff;
+      text-decoration: none;
     }
-    .site-nav a:hover {
-      color: #ffffff;
+
+    .site-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0;
     }
+
     .menu-toggle {
-      display: none;
       background: none;
       border: none;
-      color: #ffffff;
+      color: #fff;
       font-size: 1.5rem;
+      padding: 0.5rem;
       cursor: pointer;
-    }
-
-    /* Layout */
-    .page-wrapper {
+      min-width: 44px;
+      min-height: 44px;
       display: flex;
-      max-width: 1400px;
-      margin: 0 auto;
-      padding-top: 70px;
+      align-items: center;
+      justify-content: center;
     }
 
-    /* Sidebar */
+    /* Sidebar - hidden on mobile by default */
     .sidebar {
+      position: fixed;
+      top: 56px;
+      left: -280px;
       width: 280px;
-      min-width: 280px;
-      background: #f6f8fa;
-      border-right: 1px solid #e1e4e8;
-      height: calc(100vh - 70px);
-      position: sticky;
-      top: 70px;
+      height: calc(100vh - 56px);
+      background: var(--gray);
+      border-right: 1px solid var(--border);
       overflow-y: auto;
-      padding: 1.5rem 0;
+      transition: left 0.3s ease;
+      z-index: 99;
+      padding: 1rem 0;
     }
+
+    .sidebar.open {
+      left: 0;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.15);
+    }
+
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      top: 56px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 98;
+    }
+
+    .sidebar-overlay.open {
+      display: block;
+    }
+
     .sidebar-section {
       margin-bottom: 0.5rem;
     }
+
     .sidebar-section-title {
       display: block;
-      padding: 0.5rem 1.5rem;
+      padding: 0.6rem 1.25rem;
       font-weight: 600;
-      color: #0d0829;
-      font-size: 0.85rem;
+      color: var(--navy);
+      font-size: 0.8rem;
       text-transform: uppercase;
       letter-spacing: 0.5px;
-    }
-    .sidebar-section-title:hover {
-      background: #e1e4e8;
       text-decoration: none;
     }
-    .sidebar-section-title.active {
-      background: #e1e4e8;
-      color: #091358;
-      border-left: 3px solid #091358;
-    }
+
     .sidebar-links {
       list-style: none;
       margin: 0;
       padding: 0;
     }
-    .sidebar-links li a {
+
+    .sidebar-links a {
       display: block;
-      padding: 0.4rem 1.5rem 0.4rem 2rem;
+      padding: 0.6rem 1.25rem 0.6rem 1.75rem;
       color: #586069;
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       border-left: 3px solid transparent;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
     }
-    .sidebar-links li a:hover {
+
+    .sidebar-links a:hover,
+    .sidebar-links a.active {
       background: #e1e4e8;
-      color: #0d0829;
+      color: var(--blue);
+      border-left-color: var(--blue);
     }
-    .sidebar-links li a.active {
-      background: #e1e4e8;
-      color: #091358;
-      border-left-color: #091358;
-      font-weight: 500;
-    }
-    .sidebar-divider {
-      height: 1px;
-      background: #e1e4e8;
-      margin: 1rem 1.5rem;
-    }
+
     .sidebar-download {
-      padding: 1rem 1.5rem;
+      padding: 1rem 1.25rem;
+      margin-top: 1rem;
     }
+
     .sidebar-download a {
       display: block;
-      background: #091358;
-      color: #ffffff;
-      padding: 0.6rem 1rem;
+      background: var(--blue);
+      color: #fff;
+      padding: 0.75rem 1rem;
       text-align: center;
       text-decoration: none;
-      border-radius: 6px;
-      font-size: 0.85rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
       font-weight: 500;
-    }
-    .sidebar-download a:hover {
-      background: #0d0829;
+      min-height: 44px;
     }
 
-    /* Main Content */
+    /* Main Content - Mobile first */
     .main-content {
-      flex: 1;
-      padding: 2rem 3rem;
-      min-width: 0;
-      max-width: 900px;
+      padding: 72px 1.25rem 100px 1.25rem;
+      max-width: 100%;
     }
 
-    /* Content Styles */
-    .chapter-diagram {
+    /* Images - full width on mobile */
+    .chapter-diagram,
+    .main-content img {
       display: block;
-      margin: 2rem auto;
+      width: 100%;
       max-width: 100%;
-      border: 1px solid #e1e4e8;
+      height: auto;
+      margin: 1.5rem 0;
+      border-radius: 8px;
+      border: 1px solid var(--border);
     }
+
     .diagram-caption {
       text-align: center;
       font-style: italic;
-      color: #6882a1;
+      color: var(--steel);
       margin-top: -1rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+    }
+
+    /* Typography */
+    h1 {
+      font-size: 1.75rem;
+      color: var(--navy);
+      line-height: 1.3;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      color: var(--blue);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      color: var(--steel);
+      margin-top: 1.5rem;
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+    }
+
+    /* Code blocks - mobile optimized */
+    pre {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin: 1.5rem 0;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+    }
+
+    code {
+      background: var(--gray);
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+      color: var(--red);
+    }
+
+    /* Key insight box */
+    .key-insight {
+      background: linear-gradient(135deg, #f0f4ff, #e8f0fe);
+      border-left: 4px solid var(--blue);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .key-insight strong {
+      color: var(--blue);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Try it yourself box */
+    .try-it {
+      background: #fff8e6;
+      border: 2px solid #ffc107;
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 8px;
+    }
+
+    .try-it h3 {
+      color: #856404;
+      margin-top: 0;
+    }
+
+    /* Expected output */
+    .expected-output {
+      background: #e8f5e9;
+      border-left: 4px solid #4caf50;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 0 8px 8px 0;
+      font-family: monospace;
       font-size: 0.9rem;
     }
-    .key-insight {
-      background: #f6f8fa;
-      border-left: 4px solid #091358;
-      padding: 1rem 1.5rem;
-      margin: 1.5rem 0;
-    }
-    .key-insight strong {
-      color: #091358;
-    }
-    h1 { color: #0d0829; }
-    h2 { color: #091358; border-bottom: 1px solid #e1e4e8; padding-bottom: 0.5rem; }
-    h3 { color: #6882a1; }
-    code {
-      background: #f6f8fa;
-      padding: 0.2rem 0.4rem;
-      border-radius: 3px;
-      font-size: 0.9em;
-    }
-    pre {
-      background: #f6f8fa;
-      padding: 1rem;
-      overflow-x: auto;
-      border-radius: 6px;
-    }
-    pre code {
-      padding: 0;
-      background: none;
-    }
+
+    /* Tables */
     table {
       width: 100%;
       border-collapse: collapse;
       margin: 1rem 0;
-    }
-    th, td {
-      border: 1px solid #e1e4e8;
-      padding: 0.75rem;
-      text-align: left;
-    }
-    th {
-      background: #f6f8fa;
-    }
-    .btn-primary {
-      background: #091358;
-      color: #ffffff;
-      padding: 0.75rem 1.5rem;
-      text-decoration: none;
-      display: inline-block;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-    .btn-primary:hover {
-      background: #0d0829;
-      color: #ffffff;
-    }
-    .chapter-nav {
-      display: flex;
-      justify-content: space-between;
-      padding: 1.5rem 0;
-      border-top: 1px solid #e1e4e8;
-      margin-top: 3rem;
-    }
-    .chapter-nav a {
-      color: #091358;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .chapter-nav a:hover {
-      text-decoration: underline;
-    }
-    .breadcrumb {
-      color: #6882a1;
-      font-size: 0.9rem;
-      margin-bottom: 1rem;
-    }
-    .breadcrumb a {
-      color: #091358;
-    }
-    .part-header {
-      background: linear-gradient(135deg, #091358, #0d0829);
-      color: #ffffff;
-      padding: 2rem;
-      margin: -2rem -3rem 2rem -3rem;
-    }
-    .part-header h1 {
-      color: #ffffff;
-      margin: 0;
-    }
-    .part-header p {
-      color: #6882a1;
-      margin: 0.5rem 0 0 0;
-    }
-    footer {
-      margin-top: 4rem;
-      padding-top: 2rem;
-      border-top: 1px solid #e1e4e8;
-      color: #6882a1;
       font-size: 0.9rem;
     }
 
-    /* Mobile */
-    @media (max-width: 1024px) {
-      .sidebar {
-        display: none;
-        position: fixed;
-        top: 70px;
-        left: 0;
-        width: 280px;
-        height: calc(100vh - 70px);
-        z-index: 99;
-        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background: var(--gray);
+      font-weight: 600;
+    }
+
+    /* Bottom navigation - sticky on mobile */
+    .chapter-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      z-index: 50;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    }
+
+    .chapter-nav a {
+      flex: 1;
+      padding: 1rem;
+      text-align: center;
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .chapter-nav a:first-child {
+      border-right: 1px solid var(--border);
+    }
+
+    .chapter-nav a:hover {
+      background: var(--gray);
+    }
+
+    .chapter-nav .empty {
+      flex: 1;
+      min-height: 56px;
+    }
+
+    /* Progress indicator */
+    .progress-bar {
+      position: fixed;
+      top: 56px;
+      left: 0;
+      height: 3px;
+      background: var(--blue);
+      z-index: 101;
+      transition: width 0.2s;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb {
+      color: var(--steel);
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .breadcrumb a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding: 1.5rem 0;
+      border-top: 1px solid var(--border);
+      color: var(--steel);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    /* Part header */
+    .part-header {
+      background: linear-gradient(135deg, var(--blue), var(--navy));
+      color: #fff;
+      padding: 1.5rem 1.25rem;
+      margin: -72px -1.25rem 1.5rem -1.25rem;
+      padding-top: calc(72px + 1.5rem);
+    }
+
+    .part-header h1 {
+      color: #fff;
+      margin: 0;
+    }
+
+    .part-header p {
+      color: var(--steel);
+      margin: 0.5rem 0 0 0;
+    }
+
+    /* Desktop styles */
+    @media (min-width: 768px) {
+      html {
+        font-size: 16px;
       }
-      .sidebar.open {
-        display: block;
+
+      .site-header {
+        padding: 1rem 2rem;
       }
+
+      .site-title {
+        font-size: 1.25rem;
+      }
+
       .menu-toggle {
-        display: block;
-      }
-      .site-nav {
         display: none;
       }
-      .main-content {
-        padding: 1.5rem;
+
+      .sidebar {
+        left: 0;
+        top: 60px;
+        height: calc(100vh - 60px);
       }
+
+      .sidebar-overlay {
+        display: none !important;
+      }
+
+      .main-content {
+        margin-left: 280px;
+        padding: 80px 3rem 2rem 3rem;
+        max-width: 800px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      pre {
+        font-size: 0.9rem;
+      }
+
+      .chapter-nav {
+        position: static;
+        background: none;
+        border-top: 1px solid var(--border);
+        margin-top: 3rem;
+        box-shadow: none;
+      }
+
+      .chapter-nav a {
+        padding: 1.25rem 0;
+        min-height: auto;
+      }
+
+      .chapter-nav a:first-child {
+        border-right: none;
+        text-align: left;
+      }
+
+      .chapter-nav a:last-child {
+        text-align: right;
+      }
+
       .part-header {
-        margin: -1.5rem -1.5rem 1.5rem -1.5rem;
-        padding: 1.5rem;
+        margin: -80px -3rem 2rem -3rem;
+        padding: calc(80px + 2rem) 3rem 2rem 3rem;
       }
     }
-    @media (max-width: 600px) {
-      .header-container {
-        padding: 0 1rem;
-      }
-      .site-header h1 {
-        font-size: 1.2rem;
+
+    @media (min-width: 1200px) {
+      .main-content {
+        max-width: 900px;
       }
     }
   </style>
 </head>
 <body>
+  <div class="progress-bar" id="progress"></div>
+
   <header class="site-header">
-    <div class="header-container">
-      <div>
-        <h1><a href="{{ '/' | relative_url }}">From Non-Coder to Builder</a></h1>
-      </div>
-      <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
-      <nav class="site-nav">
-        <a href="{{ '/part-1-foundations/' | relative_url }}">Foundations</a>
-        <a href="{{ '/part-2-skills/' | relative_url }}">Skills</a>
-        <a href="{{ '/part-3-pitfalls/' | relative_url }}">Pitfalls</a>
-        <a href="{{ '/part-4-literacy/' | relative_url }}">Code Literacy</a>
-        <a href="{{ '/part-5-building/' | relative_url }}">Building</a>
-        <a href="{{ '/cheatsheet' | relative_url }}">Cheat Sheet</a>
-      </nav>
-    </div>
+    <a href="{{ '/' | relative_url }}" class="site-title">From Non-Coder to Builder</a>
+    <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle menu">☰</button>
   </header>
 
-  <div class="page-wrapper">
-    <aside class="sidebar" id="sidebar">
-      <div class="sidebar-section">
-        <a href="{{ '/part-1-foundations/' | relative_url }}" class="sidebar-section-title">Part 1: Foundations</a>
-        <ul class="sidebar-links">
-          <li><a href="{{ '/part-1-foundations/01-core' | relative_url }}">1. The Core Partnership</a></li>
-          <li><a href="{{ '/part-1-foundations/02-loop' | relative_url }}">2. The Loop</a></li>
-          <li><a href="{{ '/part-1-foundations/03-operations' | relative_url }}">3. Six Operations</a></li>
-        </ul>
-      </div>
+  <div class="sidebar-overlay" id="overlay" onclick="closeSidebar()"></div>
 
-      <div class="sidebar-section">
-        <a href="{{ '/part-2-skills/' | relative_url }}" class="sidebar-section-title">Part 2: Skills</a>
-        <ul class="sidebar-links">
-          <li><a href="{{ '/part-2-skills/04-decomposition' | relative_url }}">4. Decomposition</a></li>
-          <li><a href="{{ '/part-2-skills/05-precision' | relative_url }}">5. Precision</a></li>
-          <li><a href="{{ '/part-2-skills/06-feedback' | relative_url }}">6. Feedback</a></li>
-          <li><a href="{{ '/part-2-skills/07-context' | relative_url }}">7. Context</a></li>
-          <li><a href="{{ '/part-2-skills/08-restart' | relative_url }}">8. When to Restart</a></li>
-        </ul>
-      </div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-section">
+      <a href="{{ '/part-1-foundations/' | relative_url }}" class="sidebar-section-title">Part 1: Foundations</a>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/part-1-foundations/01-core' | relative_url }}">1. The Core Partnership</a></li>
+        <li><a href="{{ '/part-1-foundations/02-loop' | relative_url }}">2. The Loop</a></li>
+        <li><a href="{{ '/part-1-foundations/03-operations' | relative_url }}">3. Six Operations</a></li>
+      </ul>
+    </div>
 
-      <div class="sidebar-section">
-        <a href="{{ '/part-3-pitfalls/' | relative_url }}" class="sidebar-section-title">Part 3: Problems</a>
-        <ul class="sidebar-links">
-          <li><a href="{{ '/part-3-pitfalls/09-traps' | relative_url }}">9. Common Pitfalls</a></li>
-          <li><a href="{{ '/part-3-pitfalls/10-debugging' | relative_url }}">10. Debugging</a></li>
-          <li><a href="{{ '/part-3-pitfalls/11-unstuck' | relative_url }}">11. Getting Unstuck</a></li>
-        </ul>
-      </div>
+    <div class="sidebar-section">
+      <a href="{{ '/part-2-skills/' | relative_url }}" class="sidebar-section-title">Part 2: Skills</a>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/part-2-skills/04-decomposition' | relative_url }}">4. Decomposition</a></li>
+        <li><a href="{{ '/part-2-skills/05-precision' | relative_url }}">5. Precision</a></li>
+        <li><a href="{{ '/part-2-skills/06-feedback' | relative_url }}">6. Feedback</a></li>
+        <li><a href="{{ '/part-2-skills/07-context' | relative_url }}">7. Context</a></li>
+        <li><a href="{{ '/part-2-skills/08-restart' | relative_url }}">8. When to Restart</a></li>
+      </ul>
+    </div>
 
-      <div class="sidebar-section">
-        <a href="{{ '/part-4-literacy/' | relative_url }}" class="sidebar-section-title">Part 4: Code Literacy</a>
-        <ul class="sidebar-links">
-          <li><a href="{{ '/part-4-literacy/12-reading' | relative_url }}">12. Reading Code</a></li>
-          <li><a href="{{ '/part-4-literacy/13-concepts' | relative_url }}">13. Core Concepts</a></li>
-          <li><a href="{{ '/part-4-literacy/14-functions' | relative_url }}">14. Functions & Libraries</a></li>
-          <li><a href="{{ '/part-4-literacy/15-data' | relative_url }}">15. Data and Files</a></li>
-          <li><a href="{{ '/part-4-literacy/16-quality' | relative_url }}">16. Quality</a></li>
-        </ul>
-      </div>
+    <div class="sidebar-section">
+      <a href="{{ '/part-3-pitfalls/' | relative_url }}" class="sidebar-section-title">Part 3: Problems</a>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/part-3-pitfalls/09-traps' | relative_url }}">9. Common Pitfalls</a></li>
+        <li><a href="{{ '/part-3-pitfalls/10-debugging' | relative_url }}">10. Debugging</a></li>
+        <li><a href="{{ '/part-3-pitfalls/11-unstuck' | relative_url }}">11. Getting Unstuck</a></li>
+      </ul>
+    </div>
 
-      <div class="sidebar-section">
-        <a href="{{ '/part-5-building/' | relative_url }}" class="sidebar-section-title">Part 5: Building</a>
-        <ul class="sidebar-links">
-          <li><a href="{{ '/part-5-building/17-first-project' | relative_url }}">17. Your First Project</a></li>
-          <li><a href="{{ '/part-5-building/18-forward' | relative_url }}">18. Moving Forward</a></li>
-        </ul>
-      </div>
+    <div class="sidebar-section">
+      <a href="{{ '/part-4-literacy/' | relative_url }}" class="sidebar-section-title">Part 4: Code Literacy</a>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/part-4-literacy/12-reading' | relative_url }}">12. Reading Code</a></li>
+        <li><a href="{{ '/part-4-literacy/13-concepts' | relative_url }}">13. Core Concepts</a></li>
+        <li><a href="{{ '/part-4-literacy/14-functions' | relative_url }}">14. Functions & Libraries</a></li>
+        <li><a href="{{ '/part-4-literacy/15-data' | relative_url }}">15. Data and Files</a></li>
+        <li><a href="{{ '/part-4-literacy/16-quality' | relative_url }}">16. Quality</a></li>
+      </ul>
+    </div>
 
-      <div class="sidebar-divider"></div>
+    <div class="sidebar-section">
+      <a href="{{ '/part-5-building/' | relative_url }}" class="sidebar-section-title">Part 5: Building</a>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/part-5-building/17-first-project' | relative_url }}">17. Your First Project</a></li>
+        <li><a href="{{ '/part-5-building/18-forward' | relative_url }}">18. Moving Forward</a></li>
+      </ul>
+    </div>
 
-      <div class="sidebar-download">
-        <a href="{{ '/Cheat-Sheet.pdf' | relative_url }}">⬇ Download Cheat Sheet</a>
-      </div>
-    </aside>
+    <div class="sidebar-download">
+      <a href="{{ '/Cheat-Sheet.pdf' | relative_url }}">📥 Download Cheat Sheet</a>
+    </div>
+  </aside>
 
-    <main class="main-content">
-      {{ content }}
+  <main class="main-content">
+    {{ content }}
 
-      <footer>
-        <p>From Non-Coder to Builder: Coding with AI for Engineers</p>
-      </footer>
-    </main>
-  </div>
+    <footer>
+      <p>From Non-Coder to Builder — Coding with AI for Engineers</p>
+    </footer>
+  </main>
 
   <script>
     function toggleSidebar() {
       document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('open');
     }
-    // Close sidebar when clicking outside on mobile
-    document.addEventListener('click', function(e) {
-      const sidebar = document.getElementById('sidebar');
-      const toggle = document.querySelector('.menu-toggle');
-      if (window.innerWidth <= 1024 &&
-          !sidebar.contains(e.target) &&
-          !toggle.contains(e.target) &&
-          sidebar.classList.contains('open')) {
-        sidebar.classList.remove('open');
-      }
-    });
-    // Highlight current page in sidebar
+
+    function closeSidebar() {
+      document.getElementById('sidebar').classList.remove('open');
+      document.getElementById('overlay').classList.remove('open');
+    }
+
+    // Highlight current page
     document.addEventListener('DOMContentLoaded', function() {
-      const currentPath = window.location.pathname;
-      const sidebarLinks = document.querySelectorAll('.sidebar-links a, .sidebar-section-title');
-      sidebarLinks.forEach(function(link) {
+      const path = window.location.pathname;
+      document.querySelectorAll('.sidebar-links a').forEach(function(link) {
         const href = link.getAttribute('href');
-        if (href && (currentPath === href || currentPath === href + '/' || currentPath + '/' === href)) {
+        if (href && (path === href || path === href + '/' || path + '/' === href)) {
           link.classList.add('active');
         }
       });
+    });
+
+    // Progress bar
+    window.addEventListener('scroll', function() {
+      const winScroll = document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      document.getElementById('progress').style.width = scrolled + '%';
     });
   </script>
 </body>
