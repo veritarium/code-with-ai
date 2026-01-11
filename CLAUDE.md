@@ -4,23 +4,30 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Purpose
 
-A minimal tutorial that turns smart non-coders into proficient coders using AI. See RFC-0001A.txt for full vision.
+A visual tutorial that teaches AI coding through drawings. See VISION.md for full philosophy.
 
 ## Structure
 
 ```
-README.md           # Entry point
-chapters/
-  01-start-here.md  # Setup and first code
-  02-core-skills.md # Essential skills
-  03-build-things.md # Real projects
-RFC-0001A.txt       # Project vision
+README.md           # Entry point with drawing index
+VISION.md           # Project philosophy and principles
+drawings/           # The 10 core drawings
+  01-the-core.md
+  02-the-loop.md
+  03-decomposition.md
+  04-operations.md
+  05-context.md
+  06-specificity.md
+  07-iteration.md
+  08-pattern-pipeline.md
+  09-pattern-webapp.md
+  10-build-incrementally.md
 ```
 
-## Writing Conventions
+## Content Principles
 
-- No tool branding or product names in tutorial content
-- Present AI-assisted coding as simply "coding"
-- Every sentence must earn its place - no filler
-- Assume reader is intelligent but has zero coding experience
-- Focus on practical outcomes, not theory
+- Drawings are primary, text explains drawings
+- Each drawing works at 3 levels: glance (3s), study (30s), master (5min)
+- Every element earns its place - no decoration
+- No tool branding in teaching content
+- Dense but not overloaded

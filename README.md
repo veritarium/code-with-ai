@@ -1,21 +1,60 @@
 # Code with AI
 
-A fast tutorial for smart people who don't code yet.
+A visual tutorial for smart people who don't code yet.
 
-## What You'll Learn
+**How to use this:** Study the drawings. Text explains what you see.
 
-Write real software by talking to AI. No prior coding experience needed.
+---
 
-## Chapters
+## Setup
 
-1. [Start Here](chapters/01-start-here.md) - Setup and your first code
-2. [Core Skills](chapters/02-core-skills.md) - Everything you need to know
-3. [Build Things](chapters/03-build-things.md) - Real projects
+```bash
+npm install -g @anthropic-ai/claude-code
+claude
+```
 
-## Reference
+---
 
-- [Cheatsheet](chapters/cheatsheet.md) - Quick lookup
+## The Drawings
 
-## Time Investment
+### Foundations
 
-About 2 hours to complete. Then you're coding.
+| # | Drawing | What You Learn |
+|---|---------|----------------|
+| 01 | [The Core](drawings/01-the-core.md) | How you and AI collaborate |
+| 02 | [The Loop](drawings/02-the-loop.md) | The work cycle: describe → get → run → refine |
+| 03 | [Decomposition](drawings/03-decomposition.md) | Breaking big into small |
+| 04 | [Operations](drawings/04-operations.md) | The six things you can do |
+
+### Mastery
+
+| # | Drawing | What You Learn |
+|---|---------|----------------|
+| 05 | [Context](drawings/05-context.md) | What AI can and cannot see |
+| 06 | [Specificity](drawings/06-specificity.md) | Precision in, precision out |
+| 07 | [Iteration](drawings/07-iteration.md) | How to refine effectively |
+
+### Patterns
+
+| # | Drawing | What You Learn |
+|---|---------|----------------|
+| 08 | [Data Pipeline](drawings/08-pattern-pipeline.md) | Processing data from input to output |
+| 09 | [Web App](drawings/09-pattern-webapp.md) | Building interactive applications |
+| 10 | [Build Incrementally](drawings/10-build-incrementally.md) | Small verified steps |
+
+---
+
+## Quick Reference
+
+| Do This | Say This |
+|---------|----------|
+| Create | `Create [file] that [does what]` |
+| Read | `Show me [file]` |
+| Edit | `In [file], change [X] to [Y]` |
+| Run | `Run [file]` |
+| Fix | `[error]. Fix it.` |
+| Extend | `Add [feature] to [file]` |
+
+---
+
+Start with [Drawing 01: The Core](drawings/01-the-core.md).
