@@ -57,6 +57,19 @@ These three patterns—if/else for choosing, for for repeating through items, wh
 
 ---
 
+## Try It Yourself
+
+Practice understanding core concepts:
+
+- "Create a variable to store a bolt diameter of 12.5mm"
+- "Write an if statement that prints 'Fail' if stress is over 250"
+- "Create a for loop that prints each item in a list of bolt sizes"
+- "What's the difference between a for loop and a while loop?"
+- "Show me an example of a boolean variable and how to use it in an if statement"
+- "Create a list of numbers and write a loop that calculates their sum"
+
+---
+
 ## Key Takeaway
 
 Variables and control flow are the foundation of all programming. Variables are just named containers—think labeled boxes. Control flow uses if/else for decisions, for loops to process collections, and while loops to repeat until done. Every complex program is built from these simple pieces combined in different ways.

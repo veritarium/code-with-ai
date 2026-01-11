@@ -55,6 +55,18 @@ The beautiful thing about restarting is you're not starting from zero. You now k
 
 ---
 
+## Try It Yourself
+
+Practice knowing when to restart:
+
+- After 3 failed attempts: "Let me try a completely different approach. Instead of X, let's try Y."
+- "Forget the previous code. Here's what I actually need: [clearer description]"
+- "The loop approach isn't working. Can you solve this using list comprehension instead?"
+- "Start fresh: I need a function that does X. Here's an example of input and expected output."
+- "New approach: instead of processing all at once, let's do it in batches of 100"
+
+---
+
 ## Key Takeaway
 
 Don't let sunk cost keep you stuck. If you've made five attempts and you're still not close, restart. Take what you learned—what the data looks like, what doesn't work, what edge cases exist—and write a better prompt from scratch. A fresh start with knowledge beats endless iteration on a broken foundation.

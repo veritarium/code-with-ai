@@ -59,6 +59,19 @@ AI now has everything it needs. One response, done.
 
 ---
 
+## Try It Yourself
+
+Practice giving good feedback:
+
+- Bad: "It doesn't work" → Good: "The function returns None instead of a number"
+- "Got 15, expected 120—the function is adding instead of multiplying"
+- "Error: IndexError at line 8—the loop goes one step too far"
+- "The output format is '5.0' but I need '5.00' with exactly two decimal places"
+- "Results are correct but too slow—takes 10 seconds for 1000 items"
+- "The function works but crashes when the input list is empty—add a check for that"
+
+---
+
 ## Key Takeaway
 
 When AI gives you something wrong, resist the urge to say "fix it" and instead use the formula: Got [X], Expected [Y], Change [Z]. The more specific your feedback, the faster AI can correct the issue. Every piece of information you provide eliminates guesswork and gets you closer to done.

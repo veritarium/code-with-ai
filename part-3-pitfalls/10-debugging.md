@@ -49,6 +49,19 @@ Logic errors are the trickiest—the code runs without crashing but gives wrong 
 
 ---
 
+## Try It Yourself
+
+Practice debugging prompts:
+
+- "SyntaxError: unexpected EOF. Here's my code: [paste]. What's missing?"
+- "TypeError: 'NoneType' has no len() at line 8. Here's lines 5-12: [paste]. Input was: [data]"
+- "The code runs but returns 15 instead of 120. Here's the function: [paste]"
+- "IndexError: list index out of range. The list has 5 items. Here's the loop: [paste]"
+- "FileNotFoundError for 'data.csv'. I'm running the script from /home/user/project/. Where should the file be?"
+- "The code works for small inputs but crashes with 1000 items. How can I debug this?"
+
+---
+
 ## Key Takeaway
 
 Debugging is a systematic process, not random guessing. Capture the error exactly. Locate where it happens. Gather context around the problem. Ask AI with all this information. Apply the fix. Test to confirm. The more information you provide at step 4, the faster you get to working code.

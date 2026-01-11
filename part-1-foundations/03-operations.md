@@ -38,6 +38,19 @@ When you're stuck and don't know what to ask, identify which operation you need.
 
 ---
 
+## Try It Yourself
+
+Practice each operation:
+
+- **Create:** "Write a function that calculates bolt stress from force and area"
+- **Read:** "Explain what this code does: `result = [x*2 for x in range(10)]`"
+- **Edit:** "Change this function to use millimeters instead of meters"
+- **Fix:** "I get 'TypeError: unsupported operand type'—here's my code..."
+- **Extend:** "Add the ability to save results to a CSV file"
+- **Read:** "Why does this loop run forever?"
+
+---
+
 ## Key Takeaway
 
 Every interaction with AI for coding is one of six operations: Create, Read, Edit, Run, Fix, or Extend. When you're confused about what to ask, identify which operation you need. When your prompt isn't working, make sure you're clearly performing one operation at a time. This vocabulary makes communication with AI precise and effective.

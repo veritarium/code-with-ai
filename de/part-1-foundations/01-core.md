@@ -40,6 +40,18 @@ Sie ersetzen sich nicht durch KI. Sie verstärken sich. Denken Sie an Elektrower
 
 ---
 
+## Probieren Sie es selbst aus
+
+Versuchen Sie diese Prompts, um die Partnerschaft zu erleben:
+
+- „Erkläre, was eine for-Schleife in einfachen Worten macht"
+- „Schreibe eine Funktion, die Celsius in Fahrenheit umwandelt"
+- „Was ist der Unterschied zwischen einer Liste und einem Dictionary in Python?"
+- „Erstelle einen einfachen Rechner, der zwei Zahlen addiert"
+- „Hilf mir zu verstehen, was dieser Fehler bedeutet: NameError: name 'x' is not defined"
+
+---
+
 ## Wichtigste Erkenntnis
 
 Die Partnerschaft zwischen Ihnen und KI bedeutet nicht, dass KI Ihre Arbeit erledigt. Es geht darum, Ihr Fachwissen mit den Programmierfähigkeiten der KI zu kombinieren, um Dinge zu bauen, die keiner allein bauen könnte. Sie behalten die Kontrolle. Sie geben die Richtung vor. Sie beurteilen die Ergebnisse. KI kümmert sich nur um die Syntax.

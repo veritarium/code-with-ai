@@ -59,6 +59,19 @@ The key insight is that trust level depends on consequences of failure, not on h
 
 ---
 
+## Try It Yourself
+
+Practice avoiding the traps:
+
+- Instead of "Fix this" → "The function returns None on line 12. Expected: a list of numbers."
+- Instead of "Make it better" → "Make the function 50% faster by avoiding repeated calculations"
+- Instead of "Build me an app" → "Create a function that reads a CSV file and returns the sum of column A"
+- "Explain what this code does line by line: [paste code]"
+- "What security issues might this code have? [paste code]"
+- "I've tried 5 times and keep getting the same error. Here's a fresh start: [new description]"
+
+---
+
 ## Key Takeaway
 
 The six traps—blind trust, vague prompts, tasks too big, no context, giving up fast, and not learning—catch most beginners. Now that you know them, you can avoid them. Stay engaged with the code, be specific in your requests, break work into small pieces, share full context, persist through difficulties, and always aim to understand what AI gives you.

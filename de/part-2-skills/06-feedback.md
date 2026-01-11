@@ -61,6 +61,19 @@ Die KI hat jetzt alles, was sie braucht. Eine Antwort, fertig.
 
 ---
 
+## Probieren Sie es selbst aus
+
+Üben Sie gutes Feedback zu geben:
+
+- Schlecht: „Es funktioniert nicht" → Gut: „Die Funktion gibt None zurück statt einer Zahl"
+- „Bekommen 15, erwartet 120 — die Funktion addiert statt zu multiplizieren"
+- „Fehler: IndexError in Zeile 8 — die Schleife geht einen Schritt zu weit"
+- „Das Ausgabeformat ist ‚5.0', aber ich brauche ‚5.00' mit genau zwei Dezimalstellen"
+- „Ergebnisse sind korrekt, aber zu langsam — 10 Sekunden für 1000 Elemente"
+- „Die Funktion funktioniert, stürzt aber ab, wenn die Eingabeliste leer ist — füge eine Prüfung dafür hinzu"
+
+---
+
 ## Kernaussage
 
 Wenn die KI Ihnen etwas Falsches gibt, widerstehen Sie dem Drang zu sagen "reparier es" und verwenden Sie stattdessen die Formel: Bekommen [X], Erwartet [Y], Ändere [Z]. Je spezifischer Ihr Feedback, desto schneller kann die KI das Problem korrigieren. Jede Information, die Sie bereitstellen, eliminiert Raten und bringt Sie näher ans Ziel.

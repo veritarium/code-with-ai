@@ -55,6 +55,19 @@ Der zweite Ansatz sagt "Erstelle eine Funktion, die die Zugspannung aus Kraft un
 
 ---
 
+## Probieren Sie es selbst aus
+
+Üben Sie das Aufteilen von Aufgaben:
+
+- „Erstelle eine Funktion, die eine E-Mail-Adresse validiert" (eine Aufgabe)
+- „Ich möchte einen Budget-Tracker bauen" → Aufteilen: „Was sind die Hauptteile eines Budget-Trackers?"
+- „Erstelle eine Funktion, die prüft, ob ein String das @-Symbol enthält"
+- „Erstelle eine Funktion, die prüft, ob Text vor und nach dem @ steht"
+- „Kombiniere diese Prüfungen zu einem einfachen E-Mail-Validator"
+- „Welche anderen Prüfungen sollte ein vollständiger E-Mail-Validator haben?"
+
+---
+
 ## Kernaussage
 
 Zerlegung ist die Schlüsselfähigkeit für das KI-Programmieren. Bevor Sie irgendeinen Prompt schreiben, fragen Sie sich: "Ist diese Aufgabe klein genug?" Wenn Sie sie nicht in einem Satz beschreiben können, zerlegen Sie sie. Bauen Sie Ihre Programme aus kleinen Bausteinen mit einem einzigen Zweck, und die KI wird Ihnen helfen, sie zu etwas Kraftvollem zusammenzusetzen.

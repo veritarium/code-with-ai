@@ -55,6 +55,19 @@ For file naming, use lowercase (`calculations.py` not `Calculations.py`), use un
 
 ---
 
+## Try It Yourself
+
+Practice testing and organizing:
+
+- "Write a test that checks if calculate_stress(1000, 4) returns 250"
+- "What edge cases should I test for a function that divides two numbers?"
+- "Add an assertion to verify the result is not negative"
+- "Create a project structure for a calculator app"
+- "What's a good naming convention for test files?"
+- "Show me how to test what happens when input is an empty list"
+
+---
+
 ## Key Takeaway
 
 Quality comes from testing and organization. Test manually for quick checks, write automated tests for reliability, and always test edge cases. Organize your project with separate files for different concerns, keep data and output separate from code, and include tests and documentation. Tested code is trusted code, and organized code is maintainable code.

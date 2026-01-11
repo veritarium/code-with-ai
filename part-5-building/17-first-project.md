@@ -59,6 +59,19 @@ The ultimate test: Can someone else use this without your help? Would you trust 
 
 ---
 
+## Try It Yourself
+
+Practice the project workflow:
+
+- "Help me plan a simple unit converter. What should the inputs and outputs be?"
+- "Create the core function: convert_temperature(value, from_unit, to_unit)"
+- "Test it: what should convert_temperature(100, 'C', 'F') return?"
+- "What edge cases should I handle for a temperature converter?"
+- "Add an error message for invalid unit types"
+- "Review this code and suggest improvements: [paste your code]"
+
+---
+
 ## Key Takeaway
 
 Building your first real project follows three phases: plan what you want, build it piece by piece, and refine it until it's ready. Start small, get it working, then expand. Use the checklist to catch issues before shipping. The project above demonstrates that with the skills you've learned, you can build real, useful tools. Now it's your turn to create something that solves a problem you care about.

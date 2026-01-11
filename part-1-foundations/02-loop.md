@@ -53,6 +53,19 @@ This mindset shift is crucial. Stop asking "why didn't AI give me perfect code?"
 
 ---
 
+## Try It Yourself
+
+Practice the loop with these prompts:
+
+- "Create a function that calculates the area of a circle"
+- "The function returns 0 for all inputs—what's wrong?"
+- "Now add validation to reject negative radius values"
+- "Change the output to include the units (square meters)"
+- "The code crashes when I enter text instead of a number—fix it"
+- "Add a second function that calculates circumference"
+
+---
+
 ## Key Takeaway
 
 The loop is your fundamental workflow. Every time you work with AI, you'll describe what you want, get code, run it, evaluate whether it works, and either finish or refine. Expect multiple iterations. Plan for them. The goal isn't perfect code on the first try—it's working code after enough loops.

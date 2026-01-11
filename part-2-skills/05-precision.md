@@ -61,6 +61,19 @@ You don't always need all five components, but the more you include, the better 
 
 ---
 
+## Try It Yourself
+
+Compare vague vs precise prompts:
+
+- Vague: "Help with math" → Precise: "Write a function that calculates compound interest"
+- "Create a Python function called compound_interest that takes principal, rate (as decimal), and years, returns the final amount rounded to 2 decimals"
+- "Add an example: principal=1000, rate=0.05, years=10 should return 1628.89"
+- "Include error handling for negative values"
+- "Add a docstring explaining what the function does"
+- "Write a test case that verifies the calculation is correct"
+
+---
+
 ## Key Takeaway
 
 Every minute you spend making your prompt more precise saves five minutes of iteration later. Use the five components—What, Where, How, Why, and Example—as a checklist. When AI gives you something wrong, ask yourself: "What was I not specific enough about?" The answer is almost always in the prompt.

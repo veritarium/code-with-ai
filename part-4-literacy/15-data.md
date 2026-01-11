@@ -55,6 +55,20 @@ Common file types fall into two categories. Text files are human-readable: `.txt
 
 ---
 
+## Try It Yourself
+
+Practice with data structures and files:
+
+- "Create a list of bolt sizes: 8, 10, 12, 16"
+- "Create a dictionary for a bolt with name, grade, and diameter"
+- "How do I access the third item in a list?"
+- "Show me how to read a CSV file and print each row"
+- "How do I write results to a text file?"
+- "What's the difference between a list and a tuple?"
+- "Create a dictionary and loop through all its keys and values"
+
+---
+
 ## Key Takeaway
 
 Data structures organize your data: lists for ordered collections, dictionaries for named properties, tuples for fixed values. Files make data permanent: text files for simple content, CSV for tabular data, JSON for structured data. The typical workflow is load data from files, process it with your code, and save results back to files. AI handles the syntax details—you focus on what data you need and how to organize it.

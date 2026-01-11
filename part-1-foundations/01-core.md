@@ -38,6 +38,18 @@ You're not replacing yourself with AI. You're amplifying yourself. Think of it l
 
 ---
 
+## Try It Yourself
+
+Try these prompts to experience the partnership:
+
+- "Explain what a for loop does in simple terms"
+- "Write a function that converts Celsius to Fahrenheit"
+- "What's the difference between a list and a dictionary in Python?"
+- "Create a simple calculator that adds two numbers"
+- "Help me understand what this error means: NameError: name 'x' is not defined"
+
+---
+
 ## Key Takeaway
 
 The partnership between you and AI is not about AI doing your job. It's about combining your domain expertise with AI's coding ability to build things neither could build alone. You remain in control. You provide the direction. You judge the results. AI just handles the syntax.

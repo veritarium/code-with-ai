@@ -84,6 +84,20 @@ What's next: pick a real problem you want to solve. Build your first real projec
 
 ---
 
+## Try It Yourself
+
+Start your journey:
+
+- "I'm new to coding. Create a simple script that counts words in a text"
+- "I have a CSV file with sales data. How do I calculate the total?"
+- "Help me automate renaming files in a folder"
+- "Create a simple quiz game that asks 5 questions"
+- "Build a script that reminds me of tasks at specific times"
+- "I want to analyze my expenses. Where do I start?"
+- "What's a good first project for someone who wants to automate their work?"
+
+---
+
 ## Key Takeaways
 
 Everything from this tutorial in one place.

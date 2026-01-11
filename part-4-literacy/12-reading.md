@@ -59,6 +59,19 @@ A function call like `calculate_stress(1000, 4)` uses a function you defined. Yo
 
 ---
 
+## Try It Yourself
+
+Practice reading code with AI:
+
+- "What does this code do? [paste any code snippet]"
+- "Explain this line by line: `result = [x*2 for x in range(5) if x > 1]`"
+- "What is the variable 'total' used for in this function? [paste function]"
+- "Why is there a try/except block here? [paste code]"
+- "What would happen if the input list is empty? [paste code]"
+- "What are the inputs and outputs of this function? [paste function]"
+
+---
+
 ## Key Takeaway
 
 Reading code is a learnable skill separate from writing it. Focus on names (what data represents), structure (what belongs together), flow (top to bottom with branches), and patterns (the same building blocks everywhere). When you're unsure, ask AI to explain. You don't need to memorize syntax—you need to understand intent.

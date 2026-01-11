@@ -53,6 +53,19 @@ When you need something specific, ask AI: "What library should I use to [task]?"
 
 ---
 
+## Try It Yourself
+
+Practice with functions and libraries:
+
+- "Create a function called calculate_area that takes width and height and returns the area"
+- "What library should I use to calculate the mean of a list of numbers?"
+- "Show me how to use pandas to read a CSV file"
+- "Create a function that takes a list and returns only numbers greater than 10"
+- "What does numpy.array() do and when would I use it?"
+- "Show me how to import and use the math library to calculate a square root"
+
+---
+
 ## Key Takeaway
 
 Functions package code into reusable building blocks—define once, use anywhere. Libraries are collections of functions others have already written and tested. Together, they let you build powerful programs quickly. When you need a capability, first check if a library exists. When you write code you'll use more than once, make it a function.

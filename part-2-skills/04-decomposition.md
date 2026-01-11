@@ -53,6 +53,19 @@ The second approach says "Create a function that calculates tensile stress from 
 
 ---
 
+## Try It Yourself
+
+Practice breaking down tasks:
+
+- "Create a function that validates an email address" (one task)
+- "I want to build a budget tracker" → Break this down: "What are the main parts of a budget tracker?"
+- "Create a function that checks if a string contains the @ symbol"
+- "Create a function that checks if there's text before and after the @"
+- "Combine these checks into a simple email validator"
+- "What other checks should a complete email validator have?"
+
+---
+
 ## Key Takeaway
 
 Decomposition is the master skill for AI coding. Before you write any prompt, ask yourself: "Is this task small enough?" If you can't describe it in one sentence, break it down. Build your programs from small, single-purpose pieces, and AI will help you assemble them into something powerful.

@@ -57,6 +57,19 @@ Simplifying means making a minimal example that reproduces the problem. Strip th
 
 ---
 
+## Try It Yourself
+
+Practice escape routes:
+
+- **Start fresh:** "New approach: I need to [describe goal]. Forget previous attempts."
+- **Break smaller:** "Just the first step: read the file. Don't process it yet."
+- **Add context:** "Here's the full error, the code, and sample input: [paste all three]"
+- **Rephrase:** "Let me explain differently: I have X, I want Y, the problem is Z."
+- **Ask why:** "Why does this error happen? What causes 'NoneType' errors in general?"
+- **Simplify:** "Here's a minimal example that fails: [3 lines of code]. Why doesn't this work?"
+
+---
+
 ## Key Takeaway
 
 Getting stuck happens to everyone. The skill is recognizing it early and choosing an escape route. If you've tried five times with no progress, stop. Ask yourself: Should I start fresh? Break smaller? Add context? Rephrase? Ask why? Simplify? One of these will get you moving again. Stuck is temporary when you have strategies to escape.

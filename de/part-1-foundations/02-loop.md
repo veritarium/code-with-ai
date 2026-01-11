@@ -55,6 +55,19 @@ Dieser Perspektivwechsel ist entscheidend. Hören Sie auf zu fragen „Warum hat
 
 ---
 
+## Probieren Sie es selbst aus
+
+Üben Sie die Schleife mit diesen Prompts:
+
+- „Erstelle eine Funktion, die die Fläche eines Kreises berechnet"
+- „Die Funktion gibt 0 für alle Eingaben zurück — was ist falsch?"
+- „Füge jetzt eine Validierung hinzu, um negative Radiuswerte abzulehnen"
+- „Ändere die Ausgabe, um die Einheiten (Quadratmeter) einzuschließen"
+- „Der Code stürzt ab, wenn ich Text statt einer Zahl eingebe — repariere das"
+- „Füge eine zweite Funktion hinzu, die den Umfang berechnet"
+
+---
+
 ## Wichtigste Erkenntnis
 
 Die Schleife ist Ihr grundlegender Arbeitsablauf. Jedes Mal, wenn Sie mit KI arbeiten, werden Sie beschreiben, was Sie wollen, Code erhalten, ihn ausführen, bewerten, ob er funktioniert, und entweder fertig werden oder verfeinern. Erwarten Sie mehrere Iterationen. Planen Sie dafür. Das Ziel ist nicht perfekter Code beim ersten Versuch — es ist funktionierender Code nach genügend Schleifen.

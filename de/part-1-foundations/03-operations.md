@@ -40,6 +40,19 @@ Wenn Sie feststecken und nicht wissen, wonach Sie fragen sollen, identifizieren 
 
 ---
 
+## Probieren Sie es selbst aus
+
+Üben Sie jede Operation:
+
+- **Erstellen:** „Schreibe eine Funktion, die die Schraubenspannung aus Kraft und Fläche berechnet"
+- **Lesen:** „Erkläre, was dieser Code macht: `result = [x*2 for x in range(10)]`"
+- **Bearbeiten:** „Ändere diese Funktion, um Millimeter statt Meter zu verwenden"
+- **Beheben:** „Ich bekomme ‚TypeError: unsupported operand type' — hier ist mein Code..."
+- **Erweitern:** „Füge die Möglichkeit hinzu, Ergebnisse in eine CSV-Datei zu speichern"
+- **Lesen:** „Warum läuft diese Schleife endlos?"
+
+---
+
 ## Wichtigste Erkenntnis
 
 Jede Interaktion mit KI zum Programmieren ist eine von sechs Operationen: Erstellen, Lesen, Bearbeiten, Ausführen, Beheben oder Erweitern. Wenn Sie verwirrt sind, wonach Sie fragen sollen, identifizieren Sie, welche Operation Sie brauchen. Wenn Ihr Prompt nicht funktioniert, stellen Sie sicher, dass Sie eindeutig eine Operation zur Zeit durchführen. Dieses Vokabular macht die Kommunikation mit KI präzise und effektiv.

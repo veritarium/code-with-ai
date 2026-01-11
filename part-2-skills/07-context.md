@@ -57,6 +57,19 @@ Files are the relevant code and data for your task. Including "here's the curren
 
 ---
 
+## Try It Yourself
+
+Practice providing context:
+
+- "Here's my function [paste code]. It should return X but returns Y. The input data looks like [example]."
+- "I'm using Python 3.8 with no external libraries. Create a function that..."
+- "This code must run in under 1 second for 10,000 items. Optimize this function: [paste]"
+- "We tried using recursion but hit the stack limit. Suggest an iterative approach."
+- "Here's the error: [paste full error]. Here's the code: [paste]. Here's the input: [paste]."
+- "Match this code style: [paste example]. Now write a new function that..."
+
+---
+
 ## Key Takeaway
 
 Every time you prompt AI, remember the window. AI only sees what you put in front of it. Before you hit send, ask yourself: Did I share the constraints? The preferences? The history? The errors? The relevant code? The more context you provide, the closer AI gets to exactly what you need on the first try.

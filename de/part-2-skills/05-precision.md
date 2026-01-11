@@ -63,6 +63,19 @@ Sie brauchen nicht immer alle fünf Komponenten, aber je mehr Sie einbeziehen, d
 
 ---
 
+## Probieren Sie es selbst aus
+
+Vergleichen Sie vage vs. präzise Prompts:
+
+- Vage: „Hilf mir bei Mathe" → Präzise: „Schreibe eine Funktion, die Zinseszins berechnet"
+- „Erstelle eine Python-Funktion namens zinseszins, die Kapital, Zinssatz (als Dezimalzahl) und Jahre nimmt, den Endbetrag auf 2 Dezimalstellen gerundet zurückgibt"
+- „Füge ein Beispiel hinzu: Kapital=1000, Zinssatz=0.05, Jahre=10 sollte 1628.89 ergeben"
+- „Füge Fehlerbehandlung für negative Werte hinzu"
+- „Füge einen Docstring hinzu, der erklärt, was die Funktion macht"
+- „Schreibe einen Testfall, der überprüft, ob die Berechnung korrekt ist"
+
+---
+
 ## Kernaussage
 
 Jede Minute, die Sie damit verbringen, Ihren Prompt präziser zu machen, spart fünf Minuten Iteration später. Verwenden Sie die fünf Komponenten—Was, Wo, Wie, Warum und Beispiel—als Checkliste. Wenn die KI Ihnen etwas Falsches gibt, fragen Sie sich: "Wobei war ich nicht spezifisch genug?" Die Antwort liegt fast immer im Prompt.
