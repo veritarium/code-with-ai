@@ -43,11 +43,11 @@ Here's a formula you can use every time AI gives you something that's not quite 
 
 The formula is simple: **"Got [X]. Expected [Y]. Change [Z]."** Three parts. Complete information. Immediate fix.
 
-**GOT [X]** describes what actually happened—the current output, the error message, the current behavior. Be specific. Copy-paste exact values and messages.
+The first part describes what actually happened—the current output, the error message, the current behavior you're seeing. Be specific here. Copy-paste exact values and messages rather than paraphrasing them.
 
-**EXPECTED [Y]** describes what should happen—the correct output, the desired behavior, the expected result. This gives AI a clear target.
+The second part describes what should happen instead—the correct output, the desired behavior, the expected result. This gives AI a clear target to aim for. Without knowing what you wanted, AI can't tell what needs to change.
 
-**CHANGE [Z]** suggests what to modify—the specific fix, which part to change. This part is optional but helpful when you know what's wrong.
+The third part suggests what to modify—the specific fix, which part to change, what operation to use instead. This part is optional but helpful when you have a sense of what's wrong. Even a guess helps AI narrow down the problem.
 
 Here's an example in action. You ask AI for a function to calculate the product of a list, and it gives you something that returns 15 for input [1, 2, 3, 4, 5]. You know the product should be 120. Using the formula: "The function returns 15 for input [1,2,3,4,5] but should return 120—it's calculating the sum instead of the product. Change the addition to multiplication in the loop."
 

@@ -43,11 +43,11 @@ Control flow determines how programs make decisions and repeat actions. Three pa
 *Figure 13.2: Control Flow — Decisions and repetition*
 {: .diagram-caption}
 
-**IF/ELSE** handles decisions. The code checks a condition: if true, it does one thing; if false, it does another. Think of it as a fork in the road. When you see `if stress > 250: print("Fail") else: print("Pass")`, the program chooses one path based on whether stress exceeds 250.
+The if/else pattern handles decisions. The code checks a condition: if true, it does one thing; if false, it does another. Think of it as a fork in the road. When you see `if stress > 250: print("Fail") else: print("Pass")`, the program chooses one path based on whether stress exceeds 250.
 
-**FOR LOOPS** repeat actions a known number of times. When you write `for size in [8, 10, 12]: print(size)`, the code does something for each item in the list—process one item, move to the next, until all items are handled.
+For loops repeat actions a known number of times, once for each item in a collection. When you write `for size in [8, 10, 12]: print(size)`, the code does something for each item in the list—process one item, move to the next, until all items are handled.
 
-**WHILE LOOPS** repeat actions until a condition changes. When you write `while error > 0.01: refine()`, the code keeps going until the error is small enough. You don't know in advance how many iterations it will take.
+While loops repeat actions until a condition changes. When you write `while error > 0.01: refine()`, the code keeps going until the error is small enough. You don't know in advance how many iterations it will take; the code runs until the condition is satisfied.
 
 These three patterns—if/else for choosing, for for repeating through items, while for repeating until done—combine to create every program ever written.
 

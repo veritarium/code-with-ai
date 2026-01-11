@@ -22,13 +22,13 @@ You don't need to become a programmer. You need to become a *builder*.
 
 Look at this diagram. There are four elements here, and they form a partnership that changes everything about how non-coders can create software.
 
-**YOU** are the engineer. You bring domain knowledge, judgment, and the ability to know what you actually need. You understand bolt stress calculations. You know what a valid engineering result looks like. You know what problem needs solving. This expertise doesn't disappear when AI enters the picture—it becomes more valuable.
+You are the engineer in this partnership. You bring domain knowledge, judgment, and the ability to know what you actually need. You understand bolt stress calculations and what a valid engineering result looks like. You know what problem needs solving. This expertise doesn't disappear when AI enters the picture—it becomes more valuable because you're the one who can tell good solutions from bad ones.
 
-**AI** is your coding partner. It knows syntax, patterns, and can generate code quickly. It doesn't get tired. It doesn't judge your questions. But it doesn't know *your* problem unless you tell it. AI is powerful but directionless without you.
+AI is your coding partner in this relationship. It knows syntax, patterns, and can generate code quickly. It doesn't get tired and doesn't judge your questions. But here's the crucial thing: AI doesn't know your problem unless you tell it. AI is powerful but directionless without you. It's like having an incredibly fast typist who doesn't know what document you need written.
 
-**PROMPT** is the bridge between your expertise and AI's capabilities. The prompt is how you communicate with AI. The quality of your prompt determines the quality of what you get back. We'll spend significant time mastering this skill because it's the key to everything.
+The prompt is the bridge between your expertise and AI's capabilities. This is how you communicate what you need. The quality of your prompt determines the quality of what you get back, which is why we'll spend significant time mastering this skill. Learning to write good prompts is the key to everything in this tutorial.
 
-**SOFTWARE** is the output—working code that solves your problem. This is what we're building toward. Not code for its own sake, but code that accomplishes something real for you.
+Software is the output—working code that solves your problem. This is what we're building toward. Not code for its own sake, not beautiful code that impresses other programmers, but working code that accomplishes something real for you.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> You provide direction. AI provides code. Together, you build.

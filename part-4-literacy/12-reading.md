@@ -20,7 +20,7 @@ Reading code is like reading a recipe. You can follow along without being a chef
 *Figure 12.1: Learning to Read Code — What to look for*
 {: .diagram-caption}
 
-When you look at code, focus on these patterns. **Names** tell you what things represent—`bolt_diameter`, `max_stress`, `is_valid` describe what data they hold. **Structure** shows grouping through indentation; things indented under an `if` statement only happen when that condition is true. **Keywords** like `if`, `for`, `while`, and `return` control the flow and work the same way in almost every language. **Comments** starting with `#` are human explanations written for you. And **flow** runs top to bottom unless something branches it.
+When you look at code, focus on these patterns. Names tell you what things represent—`bolt_diameter`, `max_stress`, `is_valid` describe what data they hold. Structure shows grouping through indentation; things indented under an `if` statement only happen when that condition is true. Keywords like `if`, `for`, `while`, and `return` control the flow and work the same way in almost every language. Comments starting with `#` are human explanations written for you. And flow runs top to bottom unless something branches it.
 
 When you encounter code you don't understand, AI is your interpreter. Ask "What does this code do?" or "Explain line by line" or "What is [variable] for?" or "Why is this needed?" or "What would break this?" AI excels at explaining code because it's seen millions of examples.
 
@@ -41,17 +41,17 @@ Every program is made of the same universal parts. Once you recognize these buil
 *Figure 12.2: Code Anatomy — The universal parts*
 {: .diagram-caption}
 
-A **COMMENT** like `# Calculate bolt stress` is a note for humans. The computer ignores it completely. Think of comments as sticky notes attached to the code.
+A comment like `# Calculate bolt stress` is a note for humans. The computer ignores it completely. Think of comments as sticky notes attached to the code.
 
-A **FUNCTION** like `def calculate_stress(force, area):` is a reusable block of code that takes inputs and gives outputs. It's named for what it does. Think of functions like machines in a factory.
+A function like `def calculate_stress(force, area):` is a reusable block of code that takes inputs and gives outputs. It's named for what it does. Think of functions like machines in a factory.
 
-A **VARIABLE** like `stress = force / area` is a named container for data. The name `stress` holds the result of the calculation so you can use it later.
+A variable like `stress = force / area` is a named container for data. The name `stress` holds the result of the calculation so you can use it later.
 
-A **CONDITION** like `if stress > 250:` makes a decision based on whether something is true or false. It branches the flow like a fork in the road.
+A condition like `if stress > 250:` makes a decision based on whether something is true or false. It branches the flow like a fork in the road.
 
-**OUTPUT** like `print("Warning: High stress!")` shows results to the user, making the invisible visible.
+Output like `print("Warning: High stress!")` shows results to the user, making the invisible visible.
 
-A **FUNCTION CALL** like `calculate_stress(1000, 4)` uses a function you defined. You put in values and get back a result.
+A function call like `calculate_stress(1000, 4)` uses a function you defined. You put in values and get back a result.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> Every program you'll ever see is made of these same building blocks, just arranged differently. Learn the parts = Read any program.

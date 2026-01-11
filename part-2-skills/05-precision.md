@@ -43,17 +43,17 @@ Here's a framework for building precise prompts. Five components, each adding cl
 *Figure 5.2: Five Components — The framework for precise prompts*
 {: .diagram-caption}
 
-**WHAT** is the action you want. "Create a function" or "Fix this error" or "Explain this code." This is the verb of your prompt.
+The first component is what you want—the action. This is the verb of your prompt: "Create a function" or "Fix this error" or "Explain this code." Start with a clear action so AI knows the type of response you need.
 
-**WHERE** is the location or context. "In the utils.py file" or "In the calculate function" or "For this data structure." This tells AI where to focus.
+The second component is where it happens—the location or context. You might say "in the utils.py file" or "in the calculate function" or "for this data structure." This tells AI where to focus its attention and keeps the response targeted.
 
-**HOW** specifies the method or approach. "Using a for loop" or "With error handling" or "Using the pandas library." This constrains how AI solves the problem.
+The third component is how you want it done—the method or approach. Specifying "using a for loop" or "with error handling" or "using the pandas library" constrains how AI solves the problem. Without this, AI picks its own approach, which might not fit your codebase.
 
-**WHY** explains the purpose. "To improve performance" or "For user validation" or "To match the existing code style." This gives AI intent to align with.
+The fourth component is why you need it—the purpose. Explaining "to improve performance" or "for user validation" or "to match the existing code style" gives AI intent to align with. When AI understands your goal, it makes better choices.
 
-**EXAMPLE** shows what you expect. "Input: [1,2,3], Output: 6" or "Like this existing function but for temperature." This removes ambiguity about the desired result.
+The fifth component is an example of what you expect. Showing "Input: [1,2,3], Output: 6" or saying "like this existing function but for temperature" removes ambiguity about the desired result. Examples are often the single most effective way to clarify what you want.
 
-You don't always need all five. But the more you include, the better your results. When a prompt isn't working, run through this checklist and add the components you're missing.
+You don't always need all five components, but the more you include, the better your results. When a prompt isn't working, run through these components and add the ones you're missing.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> The five components give you a systematic way to make any prompt more precise.

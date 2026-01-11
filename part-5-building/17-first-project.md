@@ -22,11 +22,11 @@ Every successful project follows three phases: plan, build, and refine. This isn
 *Figure 17.1: Your First Project — The approach*
 {: .diagram-caption}
 
-**Planning** means defining your goal before touching the keyboard. What should the program do? What goes in, what comes out? What's the simplest version that would still be useful? Write it in one sentence. If you can't describe it simply, you don't understand it yet.
+Planning means defining your goal before touching the keyboard. What should the program do? What goes in, what comes out? What's the simplest version that would still be useful? Write it in one sentence. If you can't describe it simply, you don't understand it yet.
 
-**Building** means working with AI to create each piece. Start with the core feature. Get it working. Test it. Then add the next feature. One piece at a time. Get it working before making it perfect. Perfection is the enemy of done.
+Building means working with AI to create each piece. Start with the core feature. Get it working. Test it. Then add the next feature. One piece at a time, one working step at a time. Get it working before making it perfect. Perfection is the enemy of done.
 
-**Refining** means polishing what you've built. Handle edge cases. Add helpful error messages. Clean up the code so others can understand it. Ask AI to review your code and suggest improvements.
+Refining means polishing what you've built. Handle edge cases. Add helpful error messages. Clean up the code so others can understand it. Ask AI to review your code and suggest improvements. This is where good becomes great.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> Done is better than perfect. Ship version 1, then improve it based on real usage.
@@ -43,13 +43,13 @@ Before calling a project complete, run through this mental checklist. It catches
 *Figure 17.2: Project Checklist — Before you ship*
 {: .diagram-caption}
 
-**Before starting**, verify your goal is clearly defined, you've identified inputs and outputs, and you've broken the work into small testable tasks. If any of these are fuzzy, clarify them first.
+Before starting, verify your goal is clearly defined, you've identified inputs and outputs, and you've broken the work into small testable tasks. If any of these are fuzzy, clarify them first—time spent planning saves time debugging.
 
-**While building**, make sure you're testing each piece as you go, understanding the code AI generates rather than blindly trusting it, and saving working versions so you can roll back if something breaks.
+While building, make sure you're testing each piece as you go, understanding the code AI generates rather than blindly trusting it, and saving working versions so you can roll back if something breaks.
 
-**Before finishing**, confirm it works with normal inputs, handles edge cases gracefully, and provides clear error messages when things go wrong.
+Before finishing, confirm it works with normal inputs, handles edge cases gracefully, and provides clear error messages when things go wrong.
 
-**For quality**, check that the code is readable, names are descriptive, and comments explain the non-obvious parts.
+For quality, check that the code is readable, names are descriptive, and comments explain the non-obvious parts. Code you can't understand tomorrow isn't really done today.
 
 The ultimate test: Can someone else use this without your help? Would you trust this code to run on important data? If yes to both, you're ready to ship.
 

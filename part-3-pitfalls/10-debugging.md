@@ -37,11 +37,11 @@ Understanding error types helps you describe them better to AI.
 *Figure 10.2: Error Types — Know your errors*
 {: .diagram-caption}
 
-**SYNTAX ERRORS** mean the code can't even run. These include missing brackets, typos, and wrong indentation. Tell AI "Syntax error on line X: [error message]." These are the easiest to fix—usually one character or line needs correction.
+Syntax errors mean the code can't even run. These include missing brackets, typos, and wrong indentation. When you see these, tell AI "Syntax error on line X: [error message]." These are the easiest to fix—usually one character or line needs correction.
 
-**RUNTIME ERRORS** mean the code runs but crashes midway. Examples include division by zero, accessing null values, and file not found. Tell AI "Crashes at line X with [error]. Input was [data]." These are medium difficulty because you need to understand what triggered the crash.
+Runtime errors mean the code starts but crashes midway through execution. Examples include division by zero, accessing null values, and file not found. Tell AI "Crashes at line X with [error]. Input was [data]." These are medium difficulty because you need to understand what triggered the crash.
 
-**LOGIC ERRORS** are the trickiest—the code runs without crashing but gives wrong results. Examples include wrong calculations, off-by-one errors, and incorrect conditions. Tell AI "Got [X], expected [Y]. Here's the code." These are hardest because there's no error message to guide you.
+Logic errors are the trickiest—the code runs without crashing but gives wrong results. Examples include wrong calculations, off-by-one errors, and incorrect conditions. Tell AI "Got [X], expected [Y]. Here's the code." These are hardest because there's no error message to guide you; you have to spot what's wrong in code that Python thinks is perfectly fine.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> Name the error type = Faster fix. Knowing what you're dealing with shapes how you describe the problem.

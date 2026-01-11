@@ -20,11 +20,11 @@ Testing is quality control for code. Just as you wouldn't ship a bolt without ve
 *Figure 16.1: Testing — Verify it works*
 {: .diagram-caption}
 
-**Manual testing** is the simplest approach: run the code, check the output, try different inputs. Good for quick checks and exploring behavior. You're doing this naturally whenever you run code and look at the results.
+Manual testing is the simplest approach: run the code, check the output, try different inputs. This is good for quick checks and exploring behavior. You're already doing this naturally whenever you run code and look at the results.
 
-**Automated testing** writes test code that runs automatically. You define inputs and expected outputs, and the test framework verifies they match. Good for reliability because tests catch regressions when you change code.
+Automated testing means writing test code that runs automatically and repeatedly. You define inputs and expected outputs, and the test framework verifies they match. This is good for reliability because tests catch regressions when you change code—if you accidentally break something, the tests tell you immediately.
 
-**Edge case testing** examines boundary conditions: empty inputs, extreme values, invalid data. Good for robustness because edge cases are where most bugs hide. What happens with zero? With negative numbers? With empty lists?
+Edge case testing examines boundary conditions: empty inputs, extreme values, invalid data. This is good for robustness because edge cases are where most bugs hide. What happens with zero? With negative numbers? With empty lists? If you haven't tested these, you don't really know if your code works.
 
 The simplest test is an assertion: `assert result == expected, "Test failed!"` If the result doesn't match the expected value, you'll know immediately. Ask AI to write tests for your functions—it's excellent at generating test cases.
 

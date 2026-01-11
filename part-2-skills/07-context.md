@@ -41,15 +41,15 @@ There are five types of context that dramatically improve AI results.
 *Figure 7.2: What to Share — Five types of context*
 {: .diagram-caption}
 
-**CONSTRAINTS** are the limitations and requirements that bound your solution. "Must work in Python 3.8" eliminates solutions using newer features. "No external libraries" focuses AI on standard library solutions. "Max 100 lines of code" sets a size target. Without these constraints, AI might give you something technically correct but unusable in your situation.
+Constraints are the limitations and requirements that bound your solution. Saying "must work in Python 3.8" eliminates solutions using newer features. Specifying "no external libraries" focuses AI on standard library solutions. Setting "max 100 lines of code" gives a size target. Without knowing your constraints, AI might give you something technically correct but unusable in your actual situation.
 
-**PREFERENCES** are your style and approach choices. "Use descriptive variable names" shapes how AI writes code. "Add comments for complex logic" determines documentation level. "Prefer simple over clever" guides AI toward maintainable solutions. Sharing preferences means getting code that fits your standards.
+Preferences are your style and approach choices. Asking for "descriptive variable names" shapes how AI writes code. Requesting "comments for complex logic" determines documentation level. Saying "prefer simple over clever" guides AI toward maintainable solutions. When you share preferences, you get code that fits your standards rather than AI's defaults.
 
-**HISTORY** is what led to this point. "We tried X but it failed because Y" prevents AI from suggesting the same failed approach. "This is part of a larger system" helps AI understand scope. "Previous version had this bug" gives AI context about what to avoid.
+History is what led to this point in your project. Mentioning "we tried X but it failed because Y" prevents AI from suggesting the same failed approach. Noting "this is part of a larger system" helps AI understand scope. Sharing "previous version had this bug" gives AI context about what to avoid. History prevents you from going in circles.
 
-**ERRORS** are the exact messages and symptoms you're seeing. "TypeError: 'NoneType' has no len()" gives AI the specific error to diagnose. "Happens when input is empty list" describes the trigger. "Line 42 in process_data function" pinpoints the location. The more precise your error description, the faster AI can fix it.
+Errors are the exact messages and symptoms you're seeing. Pasting "TypeError: 'NoneType' has no len()" gives AI the specific error to diagnose. Describing "happens when input is empty list" identifies the trigger. Saying "line 42 in process_data function" pinpoints the location. The more precise your error description, the faster AI can fix it.
 
-**FILES** are the relevant code and data. "Here's the current function: [code]" shows AI what you're working with. "Sample input data: [data]" helps AI understand the format. "Related config file: [config]" provides system context.
+Files are the relevant code and data for your task. Including "here's the current function: [code]" shows AI what you're working with. Providing "sample input data: [data]" helps AI understand the format. Attaching "related config file: [config]" gives system context. AI can't help with code it can't see.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> More context = Fewer iterations = Better results.

@@ -39,17 +39,17 @@ There are six ways to get unstuck. Pick one based on your situation.
 *Figure 11.2: Escape Routes — Six ways out*
 {: .diagram-caption}
 
-**START FRESH** means beginning a new conversation with a new prompt. This clears context clutter and gives you a fresh perspective. Use this when the same error keeps repeating.
+Starting fresh means beginning a new conversation with a new prompt. This clears context clutter and gives you a fresh perspective. Use this when the same error keeps repeating despite multiple fix attempts.
 
-**BREAK SMALLER** means splitting the task into smaller pieces. If the task seems impossible, maybe it's actually several tasks pretending to be one. Solve each piece independently, then combine them when they work.
+Breaking smaller means splitting the task into smaller pieces. If the task seems impossible, maybe it's actually several tasks pretending to be one. Solve each piece independently, then combine them when they work.
 
-**ADD CONTEXT** means sharing more information with AI. Include full error messages, related files, examples of expected behavior. Use this when AI seems confused about your situation.
+Adding context means sharing more information with AI. Include full error messages, related files, and examples of expected behavior. Use this when AI seems confused about your situation or keeps giving irrelevant suggestions.
 
-**REPHRASE** means explaining your problem differently. Use different words. Focus on a different aspect. Sometimes AI misunderstands you and a new explanation clicks.
+Rephrasing means explaining your problem differently. Use different words or focus on a different aspect of the problem. Sometimes AI misunderstands your first explanation and a new way of saying it clicks immediately.
 
-**ASK WHY** means getting AI to explain the error instead of just fixing it. "Why is this happening?" and "What causes this?" can reveal understanding you're missing. Use this when you don't understand the error.
+Asking why means getting AI to explain the error instead of just fixing it. Questions like "why is this happening?" and "what causes this?" can reveal understanding you're missing. Use this when you don't understand the error yourself.
 
-**SIMPLIFY** means making a minimal example. Strip the problem to its core—remove everything that isn't essential. If that works, add complexity back piece by piece until you find what's breaking. Use this when too many things could be wrong.
+Simplifying means making a minimal example that reproduces the problem. Strip the problem to its core—remove everything that isn't essential. If the minimal version works, add complexity back piece by piece until you find what's breaking.
 
 <div class="key-insight">
 <strong>Key Insight:</strong> Every problem has an escape route. Stuck doesn't mean defeated—it means you need a different approach.
