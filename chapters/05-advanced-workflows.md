@@ -566,3 +566,7 @@ You've completed the Claude Code tutorial. You now know how to:
 5. **Combine skills** into powerful development workflows
 
 The best way to improve is practice. Start using Claude Code on real projects and these patterns will become second nature.
+
+---
+
+[← Previous: Terminal Commands](04-terminal-commands.md) | [Home](../README.md)

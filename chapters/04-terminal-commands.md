@@ -519,6 +519,6 @@ Key principles:
 - Use dry runs and previews for destructive operations
 - Chain related commands for efficient workflows
 
-## Next Chapter
+---
 
-In Chapter 5, we'll explore advanced workflows—combining everything you've learned into powerful development patterns.
+[← Previous: Files and Code](03-files-and-code.md) | [Home](../README.md) | [Next: Advanced Workflows →](05-advanced-workflows.md)

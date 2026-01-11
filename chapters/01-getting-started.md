@@ -131,6 +131,6 @@ You've learned:
 - Key concepts: context awareness, conversation memory, and CLAUDE.md
 - Best practices for effective usage
 
-## Next Chapter
+---
 
-In Chapter 2, we'll explore effective prompting techniques to get the most out of Claude Code.
+[Home](../README.md) | [Next: Prompting Techniques →](02-prompting-techniques.md)

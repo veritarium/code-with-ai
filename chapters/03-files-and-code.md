@@ -370,6 +370,6 @@ Key principles:
 - Use Claude's understanding of code to make smart, contextual edits
 - Leverage search to understand unfamiliar codebases
 
-## Next Chapter
+---
 
-In Chapter 4, we'll explore using the terminal and bash commands through Claude Code for running builds, tests, and other development tasks.
+[← Previous: Prompting Techniques](02-prompting-techniques.md) | [Home](../README.md) | [Next: Terminal Commands →](04-terminal-commands.md)

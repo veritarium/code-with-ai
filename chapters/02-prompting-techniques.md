@@ -260,6 +260,6 @@ Effective prompting is a skill that improves with practice. Remember:
 - Refine iteratively rather than expecting perfection on the first try
 - Avoid ambiguity and assumed knowledge
 
-## Next Chapter
+---
 
-In Chapter 3, we'll explore working with files and code—reading, editing, creating, and managing your codebase with Claude Code.
+[← Previous: Getting Started](01-getting-started.md) | [Home](../README.md) | [Next: Files and Code →](03-files-and-code.md)
