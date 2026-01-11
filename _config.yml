@@ -1,5 +1,7 @@
 title: "From Non-Coder to Builder"
 description: "Coding with AI for Engineers - A visual tutorial for smart people who don't code yet"
+baseurl: "/code-with-ai"
+url: "https://veritarium.github.io"
 theme: jekyll-theme-primer
 markdown: GFM
 

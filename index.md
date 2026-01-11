@@ -8,7 +8,7 @@ title: Home
 
 A visual tutorial for smart people who don't code yet.
 
-<a href="/part-1-foundations/01-core" class="btn-primary">Start the Tutorial</a> &nbsp; <a href="/Cheat-Sheet.pdf" class="btn-primary" style="background:#6882a1;">Download Cheat Sheet (PDF)</a>
+<a href="{{ site.baseurl }}/part-1-foundations/01-core" class="btn-primary">Start the Tutorial</a> &nbsp; <a href="{{ site.baseurl }}/Cheat-Sheet.pdf" class="btn-primary" style="background:#6882a1;">Download Cheat Sheet (PDF)</a>
 
 ---
 
@@ -31,48 +31,48 @@ By the end of this tutorial, you'll be able to:
 
 | Chapter | Topic | What You Learn |
 |---------|-------|----------------|
-| 1 | [The Core Partnership](/part-1-foundations/01-core) | How you and AI collaborate |
-| 2 | [The Loop](/part-1-foundations/02-loop) | The work cycle: describe, get, run, evaluate |
-| 3 | [Six Operations](/part-1-foundations/03-operations) | Everything you can do with AI |
+| 1 | [The Core Partnership]({{ site.baseurl }}/part-1-foundations/01-core) | How you and AI collaborate |
+| 2 | [The Loop]({{ site.baseurl }}/part-1-foundations/02-loop) | The work cycle: describe, get, run, evaluate |
+| 3 | [Six Operations]({{ site.baseurl }}/part-1-foundations/03-operations) | Everything you can do with AI |
 
 ### Part 2: Skills
 *The techniques that make you effective.*
 
 | Chapter | Topic | What You Learn |
 |---------|-------|----------------|
-| 4 | [Decomposition](/part-2-skills/04-decomposition) | Breaking big tasks into small ones |
-| 5 | [Precision](/part-2-skills/05-precision) | Writing prompts that work |
-| 6 | [Feedback](/part-2-skills/06-feedback) | Telling AI what's wrong |
-| 7 | [Context](/part-2-skills/07-context) | What AI can and cannot see |
-| 8 | [When to Restart](/part-2-skills/08-restart) | Knowing when to cut losses |
+| 4 | [Decomposition]({{ site.baseurl }}/part-2-skills/04-decomposition) | Breaking big tasks into small ones |
+| 5 | [Precision]({{ site.baseurl }}/part-2-skills/05-precision) | Writing prompts that work |
+| 6 | [Feedback]({{ site.baseurl }}/part-2-skills/06-feedback) | Telling AI what's wrong |
+| 7 | [Context]({{ site.baseurl }}/part-2-skills/07-context) | What AI can and cannot see |
+| 8 | [When to Restart]({{ site.baseurl }}/part-2-skills/08-restart) | Knowing when to cut losses |
 
 ### Part 3: Problems
 *What goes wrong and how to fix it.*
 
 | Chapter | Topic | What You Learn |
 |---------|-------|----------------|
-| 9 | [Common Pitfalls](/part-3-pitfalls/09-traps) | Mistakes everyone makes |
-| 10 | [Debugging](/part-3-pitfalls/10-debugging) | Finding and fixing errors |
-| 11 | [Getting Unstuck](/part-3-pitfalls/11-unstuck) | Escape routes when stuck |
+| 9 | [Common Pitfalls]({{ site.baseurl }}/part-3-pitfalls/09-traps) | Mistakes everyone makes |
+| 10 | [Debugging]({{ site.baseurl }}/part-3-pitfalls/10-debugging) | Finding and fixing errors |
+| 11 | [Getting Unstuck]({{ site.baseurl }}/part-3-pitfalls/11-unstuck) | Escape routes when stuck |
 
 ### Part 4: Code Literacy
 *Understanding code without becoming a programmer.*
 
 | Chapter | Topic | What You Learn |
 |---------|-------|----------------|
-| 12 | [Reading Code](/part-4-literacy/12-reading) | Making sense of what AI gives you |
-| 13 | [Core Concepts](/part-4-literacy/13-concepts) | Variables, conditions, loops |
-| 14 | [Functions and Libraries](/part-4-literacy/14-functions) | Reusable code and imports |
-| 15 | [Data and Files](/part-4-literacy/15-data) | Working with information |
-| 16 | [Quality](/part-4-literacy/16-quality) | Testing and project structure |
+| 12 | [Reading Code]({{ site.baseurl }}/part-4-literacy/12-reading) | Making sense of what AI gives you |
+| 13 | [Core Concepts]({{ site.baseurl }}/part-4-literacy/13-concepts) | Variables, conditions, loops |
+| 14 | [Functions and Libraries]({{ site.baseurl }}/part-4-literacy/14-functions) | Reusable code and imports |
+| 15 | [Data and Files]({{ site.baseurl }}/part-4-literacy/15-data) | Working with information |
+| 16 | [Quality]({{ site.baseurl }}/part-4-literacy/16-quality) | Testing and project structure |
 
 ### Part 5: Building
 *Put it all together and build something real.*
 
 | Chapter | Topic | What You Learn |
 |---------|-------|----------------|
-| 17 | [Your First Project](/part-5-building/17-first-project) | From idea to working code |
-| 18 | [Moving Forward](/part-5-building/18-forward) | Growing your skills |
+| 17 | [Your First Project]({{ site.baseurl }}/part-5-building/17-first-project) | From idea to working code |
+| 18 | [Moving Forward]({{ site.baseurl }}/part-5-building/18-forward) | Growing your skills |
 
 ---
 
@@ -96,7 +96,7 @@ claude
 | Fix | "I'm getting this error: [paste error]. Fix it." |
 | Extend | "Add a feature to export results to CSV" |
 
-[Download the complete Cheat Sheet (PDF)](/Cheat-Sheet.pdf)
+[Download the complete Cheat Sheet (PDF)]({{ site.baseurl }}/Cheat-Sheet.pdf)
 
 ---
 
@@ -106,4 +106,4 @@ claude
 
 You're not replacing yourself with AI. You're amplifying yourself. Think of it like power tools—a nail gun doesn't replace the carpenter, it makes the carpenter faster.
 
-[Start with Chapter 1: The Core Partnership](/part-1-foundations/01-core)
+[Start with Chapter 1: The Core Partnership]({{ site.baseurl }}/part-1-foundations/01-core)
